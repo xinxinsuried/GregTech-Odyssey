@@ -392,17 +392,30 @@
 				}
 			}
 			id: "2403CDCD080D34B1"
-			rewards: [{
-				id: "349080BA7E1BB5C4"
-				item: {
-					Count: 1
-					id: "gtceu:prospector.lv"
-					tag: {
-						Charge: 98880L
+			rewards: [
+				{
+					count: 4
+					id: "158B77C0A91C16F6"
+					item: {
+						Count: 1
+						id: "scannable:scanner"
+						tag: {
+							energy: 5000
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+				{
+					id: "360CFDD79C4076E1"
+					item: "scannable:block_module"
+					type: "item"
+				}
+				{
+					id: "0BE79AD962351FAD"
+					item: "scannable:fluid_module"
+					type: "item"
+				}
+			]
 			size: 1.0d
 			tasks: [{
 				count: 256L

@@ -176,13 +176,13 @@
 			id: "59168453C2635C7F"
 			tasks: [
 				{
-					id: "28633805DCF4F2F3"
-					item: "gtocore:flotation_cell_regulator"
+					id: "628D720F7CFE00DA"
+					item: "gtocore:isa_mill"
 					type: "item"
 				}
 				{
-					id: "628D720F7CFE00DA"
-					item: "gtocore:isa_mill"
+					id: "7022F406AF06523C"
+					item: "gtocore:industrial_flotation_cell"
 					type: "item"
 				}
 			]
