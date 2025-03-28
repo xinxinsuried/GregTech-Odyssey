@@ -1,0 +1,461 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "iv"
+	group: "2A1218851E38A2EE"
+	icon: "gtceu:assembly_line"
+	id: "3F8D9D2B382EE265"
+	order_index: 6
+	quest_links: [{
+		id: "2103B4D5965B90DF"
+		linked_quest: "1CF7845875EEFA3B"
+		x: 2.5d
+		y: 0.5d
+	}]
+	quests: [
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			id: "4B776DC9B29F707A"
+			tasks: [
+				{
+					id: "68DCE3C57D404EA6"
+					item: "gtocore:dissolving_tank"
+					type: "item"
+				}
+				{
+					id: "2D5A48349457A8A2"
+					item: "gtocore:digestion_tank"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4B776DC9B29F707A"]
+			id: "2F57CA424265C509"
+			tasks: [{
+				id: "50C1C5D97B9E5FA9"
+				item: "gtceu:rare_earth_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["2F57CA424265C509"]
+			id: "09C2AF1A68A06D69"
+			tasks: [{
+				id: "0BCB6AFFEE078597"
+				item: "gtceu:yttrium_dust"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["09C2AF1A68A06D69"]
+			id: "5CB9B68188A45C6B"
+			tasks: [{
+				id: "0F08286FDB0CAB60"
+				item: "gtceu:yttrium_barium_cuprate_ingot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5CB9B68188A45C6B"]
+			id: "4A26D81CF8BCC810"
+			tasks: [{
+				id: "4F477DC2230C6178"
+				item: "gtceu:graphene_foil"
+				type: "item"
+			}]
+			x: 4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"4A26D81CF8BCC810"
+				"1CF7845875EEFA3B"
+			]
+			id: "2BD46F9D8A842B4A"
+			tasks: [{
+				id: "73AD4069223BAB1A"
+				item: "gtceu:iv_electric_motor"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			id: "61D19307E3E7118B"
+			tasks: [{
+				id: "4F67BCEC62F95672"
+				item: "gtceu:iv_assembler"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			id: "41BB6C297657D442"
+			tasks: [{
+				id: "60DB688CB5AA53A5"
+				item: "gtceu:iv_circuit_assembler"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			id: "156E62719405A609"
+			tasks: [{
+				id: "0411523C4CDBE9D4"
+				item: "gtceu:iv_parallel_hatch"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["5612C7735BC4F5BC"]
+			id: "7B0A6A5396DB2D20"
+			tasks: [{
+				id: "0DBCEA00C125E1E5"
+				item: "gtceu:hssg_ingot"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"61D19307E3E7118B"
+				"7B0A6A5396DB2D20"
+			]
+			id: "23DB14B3093506B8"
+			tasks: [{
+				id: "7458B9627359C2AC"
+				item: "gtceu:hssg_coil_block"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["41BB6C297657D442"]
+			id: "76A2C71F8131E9BE"
+			tasks: [{
+				id: "2350A8896AB00AAB"
+				item: "gtceu:quantum_processor"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"156E62719405A609"
+				"32B3E6812521AB70"
+			]
+			id: "1FE0005B481B1F1E"
+			tasks: [{
+				id: "6271E83D30AFF885"
+				title: "大型机器"
+				type: "checkmark"
+			}]
+			x: 7.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["76A2C71F8131E9BE"]
+			id: "54AC456E31D64E42"
+			tasks: [{
+				id: "5BBE027B85572681"
+				item: "gtceu:quantum_processor_assembly"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["54AC456E31D64E42"]
+			id: "72C2E41EC2ACF82E"
+			tasks: [{
+				id: "50C5B60AA6C4846C"
+				item: "gtceu:quantum_processor_computer"
+				type: "item"
+			}]
+			x: 7.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"72C2E41EC2ACF82E"
+				"7B0A6A5396DB2D20"
+			]
+			id: "1D413C9604012CBA"
+			tasks: [{
+				id: "16CF88CD1D82721D"
+				item: "gtceu:quantum_processor_mainframe"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["23DB14B3093506B8"]
+			id: "181E2839BFAF8F16"
+			tasks: [{
+				id: "35DC9415740B24BC"
+				item: "gtocore:ozonation_purification_unit"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["181E2839BFAF8F16"]
+			id: "4575638489699F4E"
+			tasks: [{
+				id: "31AB9BCA0A1E04A7"
+				item: "gtocore:ozone_water_bucket"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4575638489699F4E"]
+			id: "7797EB75FF74F43F"
+			tasks: [{
+				id: "6CD75C2A3AC05041"
+				item: "gtceu:hpic_chip"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7797EB75FF74F43F"]
+			id: "13FEF91314898EB1"
+			tasks: [{
+				id: "6A6FAA1E848B0CEE"
+				item: "gtceu:assembly_line_casing"
+				type: "item"
+			}]
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["13FEF91314898EB1"]
+			id: "251002F2103BDA84"
+			tasks: [{
+				id: "0D54C1EF7D500F32"
+				item: "gtceu:assembly_line"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7797EB75FF74F43F"]
+			id: "3EF9AF3171607009"
+			tasks: [{
+				id: "02928908E7717B2D"
+				item: "gtceu:iv_energy_input_hatch"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["23DB14B3093506B8"]
+			id: "57998756043629AD"
+			tasks: [{
+				id: "7CBBED9115CE04F9"
+				item: "gtceu:samarium_iron_arsenic_oxide_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["57998756043629AD"]
+			id: "7BE738C0A5DC60F2"
+			tasks: [{
+				id: "15CB63E2631E5533"
+				item: "ad_astra:ostrum_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"7BE738C0A5DC60F2"
+				"0C6A00536686D9F5"
+			]
+			id: "4CD7E4E23FCD3D84"
+			tasks: [
+				{
+					id: "798857AC852D4E7D"
+					item: {
+						Count: 1
+						id: "ad_astra_rocketed:tier_5_rocket"
+						tag: {
+							BotariumData: {
+								StoredFluids: [{
+									Amount: 16000L
+									Fluid: "ad_astra:fuel"
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "58BBAD50F7E13345"
+					item: "gtocore:rocket_fuel_h8n4c2o4_bucket"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["57998756043629AD"]
+			id: "0C6A00536686D9F5"
+			tasks: [{
+				id: "5770F8C1DEEF09C9"
+				item: "gtceu:iv_field_generator"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6A00536686D9F5"]
+			id: "5244C8FF8BF3BCED"
+			tasks: [{
+				id: "07CF20E52A0BCECB"
+				item: "gtocore:blaze_blast_furnace"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0C6A00536686D9F5"]
+			id: "5253C403ABF7BC59"
+			tasks: [{
+				id: "2E0FCF54D1C1103F"
+				item: "gtocore:drilling_control_center"
+				type: "item"
+			}]
+			x: -2.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["1CF7845875EEFA3B"]
+			id: "15C830BF6953ABA0"
+			tasks: [{
+				id: "5B36CB3A91F5B36F"
+				item: "gtocore:fission_reactor"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["15C830BF6953ABA0"]
+			description: ["核电，搭配超临界蒸汽涡轮使用"]
+			id: "179099B4231CD171"
+			tasks: [{
+				id: "06E1B3E084E954D1"
+				item: "gtocore:heat_exchanger"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["251002F2103BDA84"]
+			description: ["比普通的调节范围大一倍"]
+			id: "56E262C94F46A592"
+			optional: true
+			tasks: [{
+				id: "093B61467591683D"
+				item: "gtocore:auto_configuration_maintenance_hatch"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			id: "63481942850182B5"
+			tasks: [{
+				id: "6DEFF8533A114417"
+				item: "gtceu:rhodium_plated_palladium_ingot"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["63481942850182B5"]
+			id: "2F03D93AC7DBE58D"
+			tasks: [{
+				id: "4747091C4120115C"
+				item: "gtceu:luv_machine_hull"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["15C830BF6953ABA0"]
+			description: ["可以产出些有趣的资源"]
+			id: "0985154AE9169549"
+			tasks: [{
+				id: "77818E8F65241D2F"
+				item: "gtocore:nuclear_waste"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["251002F2103BDA84"]
+			description: ["可以安装催化剂仓"]
+			id: "1B8F815BF14E7AE8"
+			tasks: [{
+				id: "3CFFA00842C4D89D"
+				item: "gtocore:chemical_plant"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2BD46F9D8A842B4A"]
+			description: ["如果你遇到了很慢的配方，可以试试这个"]
+			id: "7B8AFBA66325BE5F"
+			tasks: [{
+				id: "41982A358055C833"
+				item: "gtocore:iv_processing_array"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -2.5d
+		}
+	]
+	subtitle: ["Tier5-IV"]
+	title: "7. 强导压(IV)"
+}
