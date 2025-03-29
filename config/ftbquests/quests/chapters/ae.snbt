@@ -1,0 +1,919 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "ae"
+	group: "48D03BA483B3FA87"
+	icon: "ae2:controller"
+	id: "775486FF148AC1FA"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["298BEC345930429A"]
+			description: [
+				"当前AE默认&c无限频道&r（专家模式开启），且不需要接入控制器，只需要当前网络内有能源接入器或者创造能源确保有能量输入即可。"
+				""
+				"可以使用ME控制器来替代能源接入，但后期可能会因为加载过多频道导致AE卡半天的情况。请斟酌使用控制器。"
+			]
+			icon: "ae2:controller"
+			id: "5FCFE3D6B36CC409"
+			rewards: [{
+				id: "30B07582F8B7CC7C"
+				item: "ae2:network_tool"
+				type: "item"
+			}]
+			subtitle: "没有频道的AE真好"
+			tasks: [
+				{
+					id: "603914C7BECB258E"
+					item: "ae2:energy_acceptor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "58F72893817AA19C"
+					item: "ae2:controller"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6574ED322216F0C0"
+					item: "ae2:creative_energy_cell"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "AE的起步"
+			x: -8.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["5FCFE3D6B36CC409"]
+			description: ["线缆传输&c没有频道限制&r，选择你喜欢的线缆"]
+			icon: "ae2:fluix_glass_cable"
+			id: "49C9DA0CB14EFCA1"
+			subtitle: "加载ing..."
+			tasks: [
+				{
+					id: "10F1BD0078DC52AE"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "smart_cable"
+						}
+					}
+					optional_task: true
+					title: "智能线缆"
+					type: "item"
+				}
+				{
+					id: "589BFC317C94D3A5"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "covered_cable"
+						}
+					}
+					optional_task: true
+					title: "包层线缆"
+					type: "item"
+				}
+				{
+					id: "6A199F68179A8EE0"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "glass_cable"
+						}
+					}
+					optional_task: true
+					title: "玻璃线缆"
+					type: "item"
+				}
+				{
+					id: "1392A4F9CD6DE317"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "covered_dense_cable"
+						}
+					}
+					optional_task: true
+					title: "致密包层线缆"
+					type: "item"
+				}
+				{
+					id: "3EFBC7FAF94BCCFE"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "smart_dense_cable"
+						}
+					}
+					optional_task: true
+					title: "致密包层智能线缆"
+					type: "item"
+				}
+			]
+			title: "网络线缆"
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["49C9DA0CB14EFCA1"]
+			description: [
+				"放入存储元件，让AE网络可以进行存储."
+				""
+				"某些&c不可堆叠&r物品要选择的不要放入，避免占用物品种类."
+			]
+			icon: "ae2:drive"
+			id: "041ABD90CDDE00AA"
+			subtitle: "你的网络存储~扩容区"
+			tasks: [
+				{
+					id: "7D61B797BE889A30"
+					item: "ae2:drive"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3DD6A1081AE52CEF"
+					item: "expatternprovider:ex_drive"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			description: ["字节内容按照原版"]
+			icon: "gtocore:item_infinity_cell"
+			id: "77D4250DECB277BD"
+			subtitle: "大箱子"
+			tasks: [
+				{
+					id: "12AD12011CFC720F"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "item_storage_cell"
+						}
+					}
+					optional_task: true
+					title: "物品存储元件"
+					type: "item"
+				}
+				{
+					id: "622E1E7FB98BCBE6"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "fluid_storage_cell"
+						}
+					}
+					optional_task: true
+					title: "流体存储元件"
+					type: "item"
+				}
+			]
+			title: "存储元件"
+			x: -4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["49C9DA0CB14EFCA1"]
+			description: ["无线传输&c当前维度的&r网络"]
+			icon: "expatternprovider:wireless_tool"
+			id: "083934744ECD19FB"
+			subtitle: "Wifi到处飞"
+			tasks: [
+				{
+					id: "7DFB1FD2AE281C46"
+					item: "expatternprovider:wireless_connect"
+					type: "item"
+				}
+				{
+					id: "7A3F1F05B5CB4C0D"
+					item: "expatternprovider:wireless_tool"
+					type: "item"
+				}
+			]
+			title: "无线连接"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["49C9DA0CB14EFCA1"]
+			description: [
+				"一般先用来给终端做&c量子桥卡&r提供的。"
+				""
+				"其次才是跨纬度传输。"
+			]
+			icon: "ae2:singularity"
+			id: "7F009EFD924B069B"
+			subtitle: "量子桥×无限制无线访问点✔"
+			tasks: [
+				{
+					id: "39EF3BF102D762CF"
+					item: "ae2:quantum_ring"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "60763E314041AAFF"
+					item: "ae2:quantum_link"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "03E7C0D4ACC8D5CF"
+					item: "ae2:singularity"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "跨纬度传输"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["041ABD90CDDE00AA"]
+			icon: "ae2:terminal"
+			id: "423FD1A25E4E2C85"
+			subtitle: "迫不及待"
+			tasks: [
+				{
+					id: "542F3172F402F93D"
+					item: "ae2:crafting_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "4FBBCDE193D23C93"
+					item: "ae2:terminal"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "访问网络"
+			x: -2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7F009EFD924B069B"
+				"58E3D6A420B632B1"
+			]
+			description: [
+				"可以让你随时随地访问终端."
+				""
+				"插上量子桥卡和量子缠绕奇点后可以无限制访问，奇点所对应量子桥得连接上网络."
+			]
+			icon: {
+				Count: 1
+				id: "ae2wtlib:wireless_universal_terminal"
+				tag: {
+					accessPoint: {
+						dimension: "minecraft:overworld"
+						pos: [I;
+							-3
+							-58
+							2
+						]
+					}
+					internalCurrentPower: 1600000.0d
+				}
+			}
+			id: "76B7D521231F506C"
+			subtitle: "掌上网络"
+			tasks: [
+				{
+					id: "1E86FB3F5679093D"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "32695D36B66A4D8E"
+					item: {
+						Count: 1
+						id: "ae2:wireless_crafting_terminal"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "2D8BFF07036CEC03"
+					item: "ae2wtlib:wireless_pattern_access_terminal"
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "5CB706BE0D87C218"
+					item: "expatternprovider:wireless_ex_pat"
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "27015CB67B4F816D"
+					item: {
+						Count: 1
+						id: "ae2wtlib:wireless_universal_terminal"
+						tag: {
+							crafting: 1b
+							currentTerminal: "crafting"
+							ex_pattern_access: 1b
+							internalMaxPower: 6400000.0d
+							pattern_access: 1b
+							pattern_encoding: 1b
+						}
+					}
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+				{
+					id: "7DEA8A6D0456A0E8"
+					item: "ae2wtlib:quantum_bridge_card"
+					optional_task: true
+					type: "item"
+					weak_nbt_match: true
+				}
+			]
+			title: "无线终端"
+			x: -4.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["423FD1A25E4E2C85"]
+			icon: "ae2:wireless_receiver"
+			id: "58E3D6A420B632B1"
+			subtitle: "终于可以随时随地访问了"
+			tasks: [
+				{
+					id: "46F75529DA44230A"
+					item: "ae2:wireless_access_point"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5BFC80B7DD946861"
+					item: "ae2:wireless_booster"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: " 无线终端的访问入口"
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["423FD1A25E4E2C85"]
+			description: ["样板编码用于编写样板，样板管理用来管理各个样板供应器的内部情况."]
+			icon: "ae2:blank_pattern"
+			id: "6834E0CEC40F4286"
+			subtitle: "终于可以放弃重复的手搓工作了"
+			tasks: [
+				{
+					id: "74305B2413D84F11"
+					item: "ae2:pattern_encoding_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "10F749999700D989"
+					item: "ae2:pattern_access_terminal"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "24E9DF11AE13BC5B"
+					item: "expatternprovider:ex_pattern_access_part"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7808538C4E33EDDA"
+					item: "ae2:pattern_provider"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "自动化的开端"
+			x: 2.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["6834E0CEC40F4286"]
+			description: [
+				"可以用来搬运ME接口和ME样板供应器，同时保存内部配置和样板。"
+				""
+				"&7对准并蹲下右键&r"
+			]
+			id: "61EC63B70D435744"
+			tasks: [{
+				id: "0089C62B8CD7B357"
+				item: {
+					Count: 1
+					id: "expatternprovider:me_packing_tape"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "可以搬运的AE"
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["5FCFE3D6B36CC409"]
+			description: [
+				"使用催化器加速母岩生成。"
+				""
+				"&8在收集上，可以使用破坏面板和存储总线做个子网络.&r"
+			]
+			icon: "ae2:flawless_budding_quartz"
+			id: "3ACFA6C39D38154C"
+			subtitle: "无限的塞特石英"
+			tasks: [
+				{
+					id: "47FA7AF380A56CBB"
+					item: "ae2:flawless_budding_quartz"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7FED0425A7ED8BEF"
+					item: "ae2:growth_accelerator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "原版的赛特石英获取"
+			x: -11.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["423FD1A25E4E2C85"]
+			description: [""]
+			icon: "ae2:interface"
+			id: "727CCA6FB49E142D"
+			subtitle: "另类的管道"
+			tasks: [
+				{
+					id: "32506A623C1A3E6F"
+					item: "ae2:interface"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "1115B8137714E114"
+					item: "ae2:import_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "519E2F787E70DC58"
+					item: "ae2:export_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "20B852AC33AACD2A"
+					item: "ae2:storage_bus"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "AE网络的交互节点"
+			x: 0.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["76B7D521231F506C"]
+			description: [
+				"前者为&c导入卡&r，即从物品栏导入进AE网络存储中。&e需要进行配置，在终端左端&r。"
+				"（更多应用在挖矿时，存储特定方块）"
+				""
+				"后者为&c导出卡&r，即从物品栏导出进AE网络存储中。&e需要进行配置，在终端左端&r。"
+				"（更多应用在建造时，抽取特定方块）"
+			]
+			id: "46DBC11C1AEFA378"
+			rewards: [{
+				id: "04211637DD483E77"
+				item: {
+					Count: 1
+					id: "constructionwand:infinity_wand"
+					tag: {
+						wand_options: { }
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "建筑党的最爱"
+			tasks: [
+				{
+					id: "2A63F8AC61E0DE64"
+					item: "ae2insertexportcard:insert_card"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "021046813188D86C"
+					item: "ae2insertexportcard:export_card"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "自动存货   取货"
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5FCFE3D6B36CC409"]
+			description: ["在外探索看到一个巨坑，挖掉外层的陨石（不要丢），挖掉神秘方块即可获得."]
+			icon: "ae2:mysterious_cube"
+			id: "50158929D20CC96E"
+			subtitle: "小小的压印模板铸造宏大的自动化网络"
+			tasks: [
+				{
+					id: "286AAF8C56D2017C"
+					item: "ae2:calculation_processor_press"
+					type: "item"
+				}
+				{
+					id: "2B2FB201DB1AA98E"
+					item: "ae2:engineering_processor_press"
+					type: "item"
+				}
+				{
+					id: "0FDF93302B59B5C0"
+					item: "ae2:logic_processor_press"
+					type: "item"
+				}
+				{
+					id: "3E64F2C697C8D2DF"
+					item: "ae2:silicon_press"
+					type: "item"
+				}
+			]
+			title: "外星科技"
+			x: -11.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["423FD1A25E4E2C85"]
+			description: ["使用元件工作台进行标记，配合模糊卡可以标记物品的大类。(比如标记水，加上模糊卡可以屏蔽全部的液体）"]
+			icon: {
+				Count: 1
+				id: "ae2_toggleable_view_cell:toggleable_view_cell"
+				tag: { }
+			}
+			id: "0831B736EDA76FB7"
+			subtitle: "清爽的界面"
+			tasks: [
+				{
+					id: "464B9A986910402E"
+					item: {
+						Count: 1
+						id: "ae2_toggleable_view_cell:toggleable_view_cell"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2AE2AD75FF1F8E4C"
+					item: "ae2:fuzzy_card"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "用来隐藏一些你不想看到的玩意"
+			x: -2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["5FCFE3D6B36CC409"]
+			id: "79701B57BFDAE266"
+			subtitle: "真是个好工具"
+			tasks: [{
+				id: "16185C4241976E8C"
+				item: "ae2netanalyser:network_analyser"
+				type: "item"
+			}]
+			title: "检查网络的工具"
+			x: -8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1403D3FC3E9A50E4"]
+			description: ["配合样板供应器进行自动化装配"]
+			icon: "ae2:molecular_assembler"
+			id: "018F46EE6AE97EFD"
+			subtitle: "记得插加速卡"
+			tasks: [
+				{
+					id: "349538FDCDF76AE2"
+					item: "ae2:molecular_assembler"
+					type: "item"
+				}
+				{
+					id: "30864B93C301C2FF"
+					item: "expatternprovider:ex_molecular_assembler"
+					type: "item"
+				}
+			]
+			title: "原版合成配方的工作方块"
+			x: 4.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["727CCA6FB49E142D"]
+			description: [
+				"多用于矿物处理线设计，热锭的自动输出。"
+				""
+				"&8配合库存输入搭建子网有奇效&r"
+			]
+			icon: "expatternprovider:tag_storage_bus"
+			id: "6E93DB24A4E226C9"
+			subtitle: "多用正则表达"
+			tasks: [
+				{
+					id: "0B42C47C19D0ADFB"
+					item: "expatternprovider:tag_storage_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "225E6FBE679DCE6B"
+					item: "expatternprovider:tag_export_bus"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "AE_矿处自动化?!"
+			x: 0.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6834E0CEC40F4286"]
+			icon: "gtocore:crafting_storage_max"
+			id: "1403D3FC3E9A50E4"
+			subtitle: "能用即可"
+			tasks: [
+				{
+					id: "541AFFB66346CA2D"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "crafting_storage"
+						}
+					}
+					optional_task: true
+					title: "合成存储器"
+					type: "item"
+				}
+				{
+					id: "683FDF4A33E22E1C"
+					item: {
+						Count: 1
+						id: "itemfilters:id_regex"
+						tag: {
+							value: "crafting_accelerator"
+						}
+					}
+					optional_task: true
+					title: "并行处理单元"
+					type: "item"
+				}
+			]
+			title: "合成CPU"
+			x: 4.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["018F46EE6AE97EFD"]
+			description: [
+				"每个装配矩阵样板核心都可以容纳36个合成样板，相当于4个ME样板供应器（1个ME扩展样板供应器）."
+				"每个装配矩阵合成核心都可以同时执行8个合成任务，大约相当于16个[1]分子装配室（1个扩展分子装配室）."
+				"每个装配矩阵速度核心都可以提供类似于加速卡的效果，&c最多生效5个&r."
+				""
+				""
+				"外层："
+				"装配矩阵框架 —— 用于搭建装配矩阵的每一条棱，框定了装配矩阵的大小，默认外径最大为 7×7×7."
+				"装配矩阵墙壁/装配矩阵玻璃 —— 用于搭建装配矩阵的每一个面，将面上填满即可."
+				"内部："
+				"装配矩阵样板核心 —— &c至少安装1个&r，用于为装配矩阵提供样板容量，每个可以容纳36个合成样板."
+				"装配矩阵合成核心 —— &c至少安装1个&r，用于让装配矩阵进行合成，每个可以同时执行8个合成任务."
+				"装配矩阵速度核心 —— &c最多生效5个&r，用于为装配矩阵加速."
+				""
+				"&8以上描述取自mc百科&r"
+			]
+			icon: "expatternprovider:ex_molecular_assembler"
+			id: "2AA0714363BA85CB"
+			subtitle: "分子装配室是你吗？"
+			tasks: [
+				{
+					id: "46386A405B2E415F"
+					item: "expatternprovider:assembler_matrix_pattern"
+					type: "item"
+				}
+				{
+					id: "0AE1CE7E6ED8FABC"
+					item: "expatternprovider:assembler_matrix_crafter"
+					type: "item"
+				}
+				{
+					id: "66335E7DE96B6D84"
+					item: "expatternprovider:assembler_matrix_speed"
+					type: "item"
+				}
+				{
+					id: "3703597E9703CFC4"
+					item: "expatternprovider:assembler_matrix_wall"
+					type: "item"
+				}
+				{
+					id: "7F7B27761C676A7E"
+					item: "expatternprovider:assembler_matrix_frame"
+					type: "item"
+				}
+			]
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["727CCA6FB49E142D"]
+			description: ["注：开启自动拉取会直接拉取网络前16的物品，流体，建议做个子网络进行自动拉取。"]
+			icon: "gtmthings:me_export_buffer"
+			id: "2DAEB70539AACE1A"
+			subtitle: "好用，爱用，多用"
+			tasks: [
+				{
+					id: "1EB5F3B4B79F7730"
+					item: "gtceu:me_input_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3438855ED1D7BEF7"
+					item: "gtceu:me_stocking_input_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "14F0BB400568BAD4"
+					item: "gtceu:me_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "2357B0B1B796B5B0"
+					item: "gtceu:me_stocking_input_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5C3066257A4740D3"
+					item: "gtceu:me_output_bus"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "69B0B940AB9840C6"
+					item: "gtceu:me_output_hatch"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "3FA199CA417CE148"
+					item: "gtmthings:me_export_buffer"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "可以兼容GT多方块的AE网络交互方块"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["2DAEB70539AACE1A"]
+			description: [""]
+			icon: "gtceu:me_pattern_buffer"
+			id: "0BC456B4331C09F5"
+			rewards: [{
+				id: "1F58A1B62D23B88A"
+				item: {
+					Count: 1
+					id: "minecraft:totem_of_undying"
+					tag: {
+						RepairCost: 0
+						display: {
+							Name: "{\"text\":\"Man,What can i say\"}"
+						}
+					}
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "68D37A606413E9A9"
+					item: "gtceu:me_pattern_buffer"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "6F7B3E6046E2F22A"
+					item: "gtceu:me_pattern_buffer_proxy"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "节省TPS"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6834E0CEC40F4286"]
+			description: ["和P2P使用类似，起到类似于样板镜像的效果。"]
+			icon: "mae2:pattern_p2p_tunnel"
+			id: "5F522D73AF5F1B2F"
+			subtitle: "镜像青春版"
+			tasks: [
+				{
+					id: "63CA0BD14B72CD80"
+					item: "ae2:me_p2p_tunnel"
+					type: "item"
+				}
+				{
+					id: "53358D9067CCC13C"
+					item: "mae2:pattern_p2p_tunnel"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "p2p样板"
+			x: 2.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["6834E0CEC40F4286"]
+			description: [
+				"机器覆盖版和发信器互相配合，利用红石信号做到AE网络特定物品或流体的库存维持。"
+				"比如和大化反搭配自动合成硫酸等常用的化学材料，这样下单合成会很快。"
+				"请求器也可以做到这点，但其属于自动下单，会占用到CPU进行合成。"
+			]
+			icon: "merequester:requester"
+			id: "44487970FC3FBAED"
+			subtitle: "不要总使用样板下单，你的时间很宝贵"
+			tasks: [
+				{
+					id: "7272315A9193DDF3"
+					item: "gtceu:machine_controller_cover"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "0FA127BB716ABF0D"
+					item: "ae2:level_emitter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "41201CC0ACEFC410"
+					item: "expatternprovider:threshold_level_emitter"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "07FFD26C4EC13D53"
+					item: "merequester:requester"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "如何使用AE网络进行简单的缓存"
+			x: 4.0d
+			y: -4.5d
+		}
+	]
+	subtitle: ["Applied Energistics 2"]
+	title: "AE"
+}

@@ -356,6 +356,11 @@
 				"通电后自动刷新神化BOSS，推荐搭建一个牢房"
 			]
 			id: "6EEEF20760158257"
+			rewards: [{
+				id: "0105CDF84D549110"
+				item: "gtocore:lv_power_amplifiers"
+				type: "item"
+			}]
 			shape: "diamond"
 			subtitle: "请确保你能干碎他们"
 			tasks: [

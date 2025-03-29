@@ -1316,32 +1316,6 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["14A66BA5BC9DB220"]
-			description: [
-				"你可能注意到了任务完成会送你一些钱币"
-				"你可以拿它们去《格雷科技会员店》里换一些东西"
-				"强力的装备以及一些重复性高的材料都可以去那买"
-			]
-			icon: "gtceu:chocolate_coin"
-			id: "1F4C27113660F6B5"
-			rewards: [{
-				count: 16
-				id: "67761ABE1F3C1494"
-				item: "gtceu:copper_credit"
-				type: "item"
-			}]
-			shape: "pentagon"
-			size: 1.5d
-			subtitle: "我的商城在哪里？"
-			tasks: [{
-				id: "11B0CF5FED2E9244"
-				type: "checkmark"
-			}]
-			title: "这些闪闪发光的东西有什么用呢"
-			x: 6.0d
-			y: 6.75d
-		}
-		{
 			dependencies: ["3BC9246D8FD4B649"]
 			description: ["整点泥土来，木棍收好嗷"]
 			icon: "minecraft:dirt"

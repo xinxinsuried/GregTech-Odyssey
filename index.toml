@@ -1,6 +1,46 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".idea/GregTech-Odyssey-packwiz.iml"
+hash = "0ff94b49c61885dd797e3da61dc3444c7ab48f317373ca42681910f1f8413752"
+
+[[files]]
+file = ".idea/inspectionProfiles/Project_Default.xml"
+hash = "53159fc5553b32afec20550de1e985f1461be66e4370276875e2c76c3476c9ab"
+
+[[files]]
+file = ".idea/libraries/GregTech_Odyssey_0_1_beta.xml"
+hash = "33ab9b3385ac59f6f22382a7557e99160b06b3b07b599f7695efdc2ae6d82682"
+
+[[files]]
+file = ".idea/libraries/data.xml"
+hash = "8d8cfebf7664f443e9dd7b212d8f1f9cd321232e8a23ddd5c3bd9cf15341f484"
+
+[[files]]
+file = ".idea/libraries/mods.xml"
+hash = "7ffa9dcbc606e2973be4d197de2f49982d0d8974b86aa0b9aa3a15dd70062967"
+
+[[files]]
+file = ".idea/libraries/resources.xml"
+hash = "8b8942b9d829189dcac7b828331b018257c7f39ed999911fb2292381556f4bc8"
+
+[[files]]
+file = ".idea/misc.xml"
+hash = "44ee27971f3bc23d40158638882a30e5fd89cde003e67a03c218f1bc06142502"
+
+[[files]]
+file = ".idea/modules.xml"
+hash = "54aa705c8d3202850dfd40236b76995edae8eb71af22e4f402cd8f5b17fc3555"
+
+[[files]]
+file = ".idea/vcs.xml"
+hash = "6323e12648862a0a96fc0d7877672817d6cd91e2c2a3c3d78f1090db23c6e88e"
+
+[[files]]
+file = ".idea/workspace.xml"
+hash = "bc92974c3d3e576528b1b6fec65fe88bd44f3c05840260c66214bca72626a511"
+
+[[files]]
 file = "CustomSkinLoader/CustomSkinLoader.json"
 hash = "2d7dabbf3233e4d5d85413086edfa63a99ba92569677394208affc489dd9e813"
 
@@ -257,6 +297,18 @@ file = "config/effortlessbuilding-common.toml"
 hash = "2e8bc14001a53aa78fd7667eea23a144105f740f83fef3dfd5ddaa90f3d8bdd0"
 
 [[files]]
+file = "config/embeddium-fingerprint.json"
+hash = "88eb1280e30de7ea5eb7c67db5d3761148cd75b64d1c52f55f7c1f4950a26f4f"
+
+[[files]]
+file = "config/embeddium-mixins.properties"
+hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+
+[[files]]
+file = "config/embeddium-options.json"
+hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+
+[[files]]
 file = "config/emi.css"
 hash = "80303f5381f0757738c22b5d08dfa070bbca7b2862a0051a187663f4e1ef0bfa"
 
@@ -337,6 +389,10 @@ file = "config/explorerscompass-common.toml"
 hash = "624ca9ea41dddc052b96c6adf5ee6cc5b8e774af6ebbc97f205b7396607699f5"
 
 [[files]]
+file = "config/fabric/indigo-renderer.properties"
+hash = "3a576a3b74583ee04c8ff18383185427e91411f1804fcb56ad5ce923bfb619a4"
+
+[[files]]
 file = "config/fallingleaves-client.toml"
 hash = "0096abbbce63bc6ee6c7aa8befcdebc10bfff639b9e4d7e7b7ef7a7cabc871d4"
 
@@ -369,6 +425,10 @@ file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
 
 [[files]]
+file = "config/flywheel-client.toml"
+hash = "8c5102d32b94fc9191800fd1597def2078ccc715eac7a6980afacd5d47c21097"
+
+[[files]]
 file = "config/fml.toml"
 hash = "ef7427d8d29242e9baf2ba65def21967644757195f4ff98d8714b10d1d8e299f"
 
@@ -395,6 +455,10 @@ hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 [[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "3d01caf2a2dc466f8eb2bf929f445fd7ceb6f70c3f53e373944c438880e00bd8"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/ae.snbt"
+hash = "144d32b82493c93d3c1767a316613db2460fdaa468566812690428f3e108574a"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -430,7 +494,7 @@ hash = "9d3e8316d3b70441f73537d9f5eb50f2c51111efbd958ce00b40ed54f5ced682"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "322fb443281e9fbec83bf0609c06eea28bd43aace41e6a3c93ffbc2a55c8603c"
+hash = "5e7cccd0378dd9c8799dca64bd87d425a49ab57cf1bdac6f39fd08a80e2f56a2"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/max.snbt"
@@ -446,11 +510,11 @@ hash = "e2a0fa89ced1cd0f04eb4368d227a83ff8ded13133adf1ca402e965a8f0b6bec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ores.snbt"
-hash = "bf4fe07566c6c008b0620370a81f22e40a77d45866ceabc87c8c61285c5615b9"
+hash = "d69c4ca64d4f7b150d51d715eaa1ea075828a6891c8cfd7a51a4a7b6dbab7cdc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "e6773b40df2b8bd2c2fdad1270bb074ce6a4a9d2535d998b8872c8fe740bdb31"
+hash = "b64d65a0d0eddab97db8f0c85631f784fdec852b4113863e01834a61b4828850"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
@@ -470,7 +534,7 @@ hash = "b6f3bbc982dcb6b7275fd675a00d99393044937bc62dc93e8b6c958a20f988a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "3e98d370e95c46b439f2a1029bddfca5b4b6a08a0f098374ab2ffaf77af7e6a7"
+hash = "d335e38d09c666c80e1f504c12e1458bc067b94a077fc40d53a35f9776c5769e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
@@ -482,7 +546,7 @@ hash = "952980b5acacef620c6296c2f01da7bf2a2ef516dfceb2726ad2ada15fae1923"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wireless-energy.snbt"
-hash = "7f973a6bf0f292eb6608f0f37a847f5bf40ab6610d08385514477c70b46d8a26"
+hash = "3430477da5785252eaf524336608f1c1064bf3178f90a9ee3360efc6abc83af8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
@@ -538,7 +602,7 @@ hash = "dfc0aa2da0eb59293371e0cb1b205cbc1a159e557396a5ff7a5f4d399f943ce8"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "7c76caa58860af96a84d6ab3e572df9da692c9eb871e2ac98f64c7694d0146ba"
+hash = "6975628abd5fcdbde6becdbdd941a39bf3ca83df0a8b5082141472631858ca9d"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -681,6 +745,10 @@ file = "config/notenoughcrashes.json"
 hash = "e604a3705ca2adf9499a412afefc61fb589448de43e4652db6232f94699e3950"
 
 [[files]]
+file = "config/oculus.properties"
+hash = "f5278157770b1629f4bccf8feb056d588c14d0946c5c1bd239517d7b1e6b2190"
+
+[[files]]
 file = "config/openloader/advanced_options.json"
 hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 
@@ -753,6 +821,18 @@ file = "config/sophisticatedcore-common.toml"
 hash = "729c7bc70b246b70ff17c87dccab3c01837ce5971ff2ba49d258d2c744d51c68"
 
 [[files]]
+file = "config/spark/activity.json"
+hash = "f1dfcb7a135bf869c9d721bfe5eeef8a54b9f733d7d6f75b54343b6722b2a25c"
+
+[[files]]
+file = "config/spark/config.json"
+hash = "992ba9f3a4a7ce3de112eb95575328956fdc3ce6781c455ebce7b23db7e7da42"
+
+[[files]]
+file = "config/spark/tmp/about.txt"
+hash = "8057ccf4540ea269b0fc332225859f44d8f3a55d891fa2e7a3447b6202658d2a"
+
+[[files]]
 file = "config/storagedrawers-client.toml"
 hash = "9278e868cee8fe35e0c0bae950a26329d85580d91841b42ea1b0d04fb4d0ad2f"
 
@@ -787,6 +867,10 @@ hash = "f06b2452cec58f6357c69271668fbf3f50133a9a92375b117439e9671a62225c"
 [[files]]
 file = "config/xaerominimap.txt"
 hash = "9526edc47830703379954c9be50dc0ca291a2fb5999c31ae223db7adb02eab62"
+
+[[files]]
+file = "config/xaerominimap_entities.json"
+hash = "a4c13e76500473fe8d555225022542d0ef89708c3d885e233dca15f91e437774"
 
 [[files]]
 file = "config/xaeropatreon.txt"
@@ -830,7 +914,7 @@ hash = "236f3b49cce6f8e8066447004d3d8fe76e1c259704a57c735a125f2f769fa6aa"
 
 [[files]]
 file = "defaultconfigs/solcarrot-server.toml"
-hash = "a9a6eebda401decb30846ae419c17bcf4070373d5ef11d3a233e6754a20a518e"
+hash = "e143bd0b7c1b210cdf4cefa2df0e8dc1164eec3a40345a42c9fc66b102e530ab"
 
 [[files]]
 file = "mods/ad-astra-rocketed.pw.toml"
@@ -1084,7 +1168,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "43897fe39c02c6975192b07f63d2a007bdb0ed48ea5eaf1c9d76bc30e28b73f6"
+hash = "b0255e234468055440b05f2160e41f8cd75f61f91942f9d91549654f98899911"
 metafile = true
 
 [[files]]
@@ -1263,8 +1347,8 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtceu-1.20.1-1.7.0.jar"
-hash = "1765f62d4d1fc71fbe2c28a0d6208eb4448f12956c8b42367a410b42bc87cae1"
+file = "mods/gtceu-1.20.1-1.7.0-SNAPSHOT-20250329-042736-8d694be.jar"
+hash = "f4897ec9087c259d348e81705c4f9ca50e1a3726fcccb6ce3b1cafce21f2b5be"
 
 [[files]]
 file = "mods/gtmthings-1.4.0.a.jar"
@@ -1272,7 +1356,7 @@ hash = "bbe4445547ec345784b88fed2fd044e3da5b9ffd4ac92fba13a95e0d772818e0"
 
 [[files]]
 file = "mods/gtocore-0.1.jar"
-hash = "5c091edd9369fcdff5ddf6329c37a042dc1099f628a471b8422f8bceb3a7b3aa"
+hash = "44c7cea064719bc363baa7333f01d8cc144aa81a7361369668e629d9d898f2b3"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
