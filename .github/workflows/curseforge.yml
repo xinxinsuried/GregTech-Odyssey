@@ -1,0 +1,19 @@
+name: "Generate Curseforge modpack"
+on:
+  pull_request:
+  push:
+jobs:
+  curseforge:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: cachix/install-nix-action@v25
+      with:
+        nix_path: nixpkgs=channel:nixos-unstable
+    - run: nix build .#curseforge
+    - name: Upload artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: GregTech Odyssey
+        path: |
+          ./result/**.zip
