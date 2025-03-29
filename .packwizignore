@@ -8,3 +8,5 @@
 /*.mrpack
 /*.lock
 fixup.sh
+/.github
+/result
