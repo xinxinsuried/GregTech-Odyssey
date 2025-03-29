@@ -42,3 +42,8 @@ overrides/CustomSkinLoader/CustomSkinAPIPlus-ClientID
 overrides/CustomSkinLoader/CustomSkinLoader.log
 .idea/
 .DS_Store
+packwiz
+.direnv
+.envrc
+/*.zip
+/*.mrpack

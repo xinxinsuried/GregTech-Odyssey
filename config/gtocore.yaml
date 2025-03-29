@@ -1,0 +1,42 @@
+# Optional: Simple, Normal, Expert
+gameDifficulty: Normal
+
+# Prevent cheating
+selfRestraint: false
+
+# Enabled, no mining required
+enablePrimitiveVoidOre: false
+
+# Reduce resource usage for the MultiBlock page (Reduce memory usage, improve startup speed, only on the client side)
+disableMultiBlockPage: false
+
+# Remove unnecessary loading
+fastMultiBlockPage: true
+
+# The interval increases gradually when the machine cannot find a recipe; this is the maximum interval.
+recipeMaxCheckInterval: 40
+
+# After enabling, the recipe search runs in an independent thread and will not affect the TPS.
+asyncRecipeSearch: true
+
+# After enabling, the recipe output runs in an independent thread and will not affect the TPS.
+asyncRecipeOutput: true
+
+# Ore product multiplier
+oreMultiplier: 4
+
+eioFluidRate: 16
+
+breakBlocksBlackList:
+  - ae2:cable_bus
+
+enableAnimalsAreAfraidToEatTheirMeat: true
+
+enableAnimalsAreAfraidToEatTheirMeatRange: 12
+
+# Check for conflicts between recipes
+recipeCheck: false
+
+# Dev Mode
+dev: false
+

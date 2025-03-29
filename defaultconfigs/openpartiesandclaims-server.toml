@@ -1,0 +1,11 @@
+
+[serverConfig]
+
+permissionSystem = "ftb_ranks"
+primaryPartySystem = "ftb_teams"
+
+[serverConfig.parties]
+enabled = false
+
+[serverConfig.claims]
+maxPlayerClaimForceloads = 500

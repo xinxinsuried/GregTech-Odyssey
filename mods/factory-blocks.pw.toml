@@ -1,0 +1,12 @@
+name = "Factory Blocks [Forge/Fabric/NeoForge]"
+filename = "factory_blocks-forge-1.4.0+mc1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1d5b4e5694a141952be0460dd85c286ea31d0d5e"
+url = "https://edge.forgecdn.net/files/6267/781/factory_blocks-forge-1.4.0+mc1.20.1.jar"
+
+[update.curseforge]
+file-id = 6267781
+project-id = 640001

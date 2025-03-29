@@ -1,0 +1,12 @@
+name = "Useful Clipboard"
+filename = "usclb-0.0.25.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d52c1437970c147cb9db8887e1b643cbbe781747"
+url = "https://edge.forgecdn.net/files/4903/415/usclb-0.0.25.jar"
+
+[update.curseforge]
+file-id = 4903415
+project-id = 664224

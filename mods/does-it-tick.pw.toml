@@ -1,0 +1,12 @@
+name = "Does It Tick?"
+filename = "does_it_tick-forge-1.1.4-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "3149313d2d5d101ac70be5ddc7ddb2afcf54c3c0"
+url = "https://edge.forgecdn.net/files/6353/652/does_it_tick-forge-1.1.4-1.20.1.jar"
+
+[update.curseforge]
+file-id = 6353652
+project-id = 543308

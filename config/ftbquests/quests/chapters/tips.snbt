@@ -1,0 +1,220 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "tips"
+	group: ""
+	icon: "minecraft:writable_book"
+	id: "5C2AA64241610E38"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"&2我的机器为什么在偷懒？&r"
+				""
+				"众所周知 Minecraft 有区块加载机制，当玩家离开区块一段时间之后区块就会暂停加载——那机器也就没法持续运行了"
+				""
+				"所以为了你的基地的正常运行，确保你的基地区块全部认领且&c强制加载&r"
+				""
+				"&7点击翻页查看操作&r"
+				""
+				"{@pagebreak}"
+				"按&e[M]&r打开地图，然后点击或者用右键框选你附近的区块，选择&e[建立领地]&r"
+				""
+				"再次框选你的认领区块，右键选择&e[标记强制加载]&r即可"
+				""
+				"&d注意：不要认领离你太远的区块，这样做是无效的&r"
+			]
+			hide_dependency_lines: false
+			icon: "minecraft:clock"
+			id: "1777A96F556AE0F6"
+			rewards: [{
+				id: "0EB25545D5B7402F"
+				item: "minecraft:clock"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "裂变反应堆的一生之敌"
+			tasks: [{
+				id: "6F242F9CB13444F7"
+				type: "checkmark"
+			}]
+			title: "区块加载"
+			x: -3.0d
+			y: -2.25d
+		}
+		{
+			description: [""]
+			icon: "minecraft:writable_book"
+			id: "79646E8E449D8A1A"
+			shape: "pentagon"
+			size: 2.0d
+			subtitle: "我还以为你从来都不会选我呢"
+			tasks: [{
+				id: "08FBC31DA70014BD"
+				title: "提示"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"将鼠标移动到你想要查询合成表/被合成的物品上"
+				""
+				"按下&4R&r或者&4鼠标左键&r查询合成表"
+				"(即此物品怎么才能获取) "
+				"按下&4U&r或者&4鼠标右键&r查询被合成表"
+				"(即此物品可以用来合成哪些物品)"
+				""
+				"打开界面后上面有两个带箭头的行"
+				"第一行和最上的图标一样可以切换合成工具"
+				"（点击这一行的文字可以查看这种方式的所有合成表）"
+				"第二行可以翻页"
+				"（很多物品有大量的合成方法，请仔细浏览，尤其是多方块机器的仓室摆放位置）"
+			]
+			icon: "ad_astra:gravity_normalizer"
+			id: "567EBE02182A8505"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "集大成者"
+			tasks: [{
+				id: "7A93CF2EDC72A8FF"
+				title: "EMI小课堂"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"整合包加入了FTBUtimine，但出于平衡考虑，只有高级工具才有更多连锁数量。"
+				""
+				"为了激活FTBUtimine，必须手持工具，连锁数量受到工具类型和等级加成："
+				""
+				"- 格雷基础工具，基础数量是32，如&6铁斧&r，&6钢镐&r"
+				"- 金刚杵、采矿锤或者电钻采矿时、链锯砍树时数量x4"
+				"- 如果是电力工具，再x2^电力等级"
+			]
+			icon: "minecraft:chain"
+			id: "23D070BB1157701F"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "我是打铁匠，这就是锁连"
+			tasks: [{
+				id: "054677D6FDC58F5F"
+				title: "连锁"
+				type: "checkmark"
+			}]
+			title: "FTB Utimine"
+			x: 3.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"你必须要检查一下你的快捷键绑定是否存在冲突"
+				""
+				"以下是几个最关键的&4快捷键："
+				""
+				"默认[M]打开地图"
+				"界面左上角可以认领与加载区块"
+				"按住～键可以启用连锁"
+				"默认TAB键快速打开任务"
+				"更详细的提示可在&b&l提示章节&r查看"
+			]
+			id: "3AC0703D45900817"
+			rewards: [{
+				id: "400EF599DA44D4BC"
+				item: {
+					Count: 1
+					id: "minecraft:leather_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "（真）寸步难行 "
+			tasks: [{
+				id: "134F5CBDDADC5489"
+				title: "这都是啥按键啊！"
+				type: "checkmark"
+			}]
+			title: "这都是啥按键啊？"
+			x: 2.25d
+			y: 1.5d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"扳手：    设置GT机器的&e输出口&r，&e旋转&r机器，&e拆卸&rGT方块、&e连接/断开&r&6管道&r"
+				"软锤：    &e开启/关闭&r机器"
+				"螺丝刀：设置机器&e自动输出&r，设置&e允许从输出口输入&r"
+				"撬棍：     &e拆卸&r&6覆盖板&r"
+				"剪线钳： &e连接/断开&r&6线缆&r"
+				"锻造锤：&e静音&r机器"
+				"{@pagebreak}"
+				"&6&l扳手使用手册：&r&r"
+				"1. 手持&6扳手&r对准可使用&6扳手&r的方块时，方块各面会显示出&2&n九宫格&r&r：中心指向&2该面&r，四边指向&2该面侧面&r，四角指向&2该面背面&r"
+				"2. &e右击&r&n九宫格&r对应格，可将机器&e旋转到该面&r（仅有面区分的非GT方块）或将&e输出口旋转至该面&r（对于GT机器）；但如果右击的是无面区分的非GT机器，则&e拆卸机器&r"
+				"3. 当&e潜行右击&r九宫格对应格，将&e正面旋转到该面&r（对于所有有面区分的机器）；对于无面的区分的非GT机器，则&e拆卸机器&r"
+				"4. &e右击&r&6管道&r的九宫格对应格，&e连接/断开&r管道对应面；&e潜行右击&r控制&e单向输入&r。"
+				"{@pagebreak}"
+				"&6&l软锤使用手册：&r&r"
+				"1. &e右击&r可&e开启/关闭&r机器。"
+				""
+				"&6&l螺丝刀使用手册：&r&r"
+				"1. &e右击&r机器输出口，调整是否&e自动输出&r。"
+				"2.  &e潜行右击&r机器输出口，调整是否&e允许从输出口输入&r"
+				""
+				"&6&l撬棍使用手册：&r&r"
+				"1. &e右击&r拆卸&6覆盖板&r。"
+				""
+				"&6&l剪线钳使用手册：&r&r"
+				"1. &e右击&r&6导线&r九宫格，&e连接/断开&r线缆"
+				""
+				"&6&l锻造锤使用手册：&r&r"
+				"1. &e右击&r&6机器&r，&e静音&r机器运行音效"
+			]
+			icon: {
+				Count: 1
+				id: "gtceu:iron_wrench"
+				tag: {
+					DisallowContainerItem: 0b
+					GT.Behaviours: {
+						Mode: 2b
+					}
+					GT.Tool: {
+						AttackDamage: 3.0f
+						AttackSpeed: -2.8f
+						Damage: 0
+						HarvestLevel: 2
+						MaxDamage: 255
+						ToolSpeed: 6.0f
+					}
+					HideFlags: 2
+				}
+			}
+			id: "1A0EA7A29CFD830D"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "使用说明书"
+			tasks: [{
+				id: "4C515BC0825578AE"
+				title: "GT 工具"
+				type: "checkmark"
+			}]
+			title: "GT 工具使用手册"
+			x: -2.5d
+			y: 1.5d
+		}
+	]
+	title: "提示"
+}

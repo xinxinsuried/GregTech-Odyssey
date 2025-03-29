@@ -1,0 +1,10 @@
+.DS_Store
+.direnv
+.envrc
+/README.md
+/LICENSE.txt
+/*.nix
+/*.zip
+/*.mrpack
+/*.lock
+fixup.sh

@@ -1,0 +1,12 @@
+name = "Scannable"
+filename = "scannable-MC1.20.1-forge-1.7.12+18ccb75.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f9a3bfe620e6e9062833a9b98011df8dc39e75c8"
+url = "https://edge.forgecdn.net/files/4763/070/scannable-MC1.20.1-forge-1.7.12+18ccb75.jar"
+
+[update.curseforge]
+file-id = 4763070
+project-id = 266784
