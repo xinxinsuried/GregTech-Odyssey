@@ -1175,7 +1175,7 @@ metafile = true
 
 [[files]]
 file = "mods/fastquit-forge.pw.toml"
-hash = "80eaf7543c8d1df23bd11e708afd9ad820d8578048e86e771b610bed8e203248"
+hash = "2b8044783300820c52dc52a6e8852b3ec4f65e3e29102601cc0bbbda3d62956b"
 metafile = true
 
 [[files]]
@@ -1327,7 +1327,7 @@ metafile = true
 
 [[files]]
 file = "mods/just-enough-characters.pw.toml"
-hash = "511adf38d188d9793204db3b0829b4b0700ab1292f408ac5d9c952bdac31a53b"
+hash = "ccab7c2535e9f7700ed0a08812194abcf64539ef4cbbfdebc4264db343bf6b40"
 metafile = true
 
 [[files]]
