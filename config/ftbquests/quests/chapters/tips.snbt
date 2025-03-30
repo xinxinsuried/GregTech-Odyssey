@@ -215,6 +215,75 @@
 			x: -2.5d
 			y: 1.5d
 		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"管道与线缆的连接延迟属于正常现象"
+				""
+				"服务端和客户端默认10T同步一次以提升性能"
+				""
+				"可在配置文件自己改同步频率"
+			]
+			icon: "gtocore:spacetime_huge_fluid_pipe"
+			id: "0853003F6BB9C758"
+			title: "管道线缆同步频率"
+			x: -3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"在mod配置里可切换难度"
+				""
+				"包括但不限于"
+				""
+				"不同复杂度的合成配方与任务"
+				"AE频道限制"
+			]
+			icon: "minecraft:compass"
+			id: "5183DB6A793BB3C6"
+			title: "难度与模式"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: ["开了之后不能使用作弊指令与从EMI里拿东西"]
+			icon: "ae2:creative_item_cell"
+			id: "6E81629D88D0710E"
+			title: "自我约束模式"
+			x: 0.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: ["主要影响矿石处理机器的主产物产出倍率"]
+			icon: "minecraft:coal_ore"
+			id: "20BC48DF78F11B24"
+			tasks: [{
+				id: "03215BD517996CFD"
+				item: "minecraft:coal_ore"
+				type: "item"
+			}]
+			title: "矿石倍率"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"添加了强化AImod"
+				""
+				"注意安全"
+				""
+				"GTOcore使在某种动物附近吃他们的肉会吓得他们的血"
+			]
+			icon: "minecraft:beef"
+			id: "1786BB8F04B92CB3"
+			title: "强化AI"
+			x: -2.0d
+			y: -4.0d
+		}
 	]
 	title: "提示"
 }

@@ -9,7 +9,7 @@
 	quests: [
 		{
 			description: [
-				"本整合包添加农夫乐事与农夫暇事，生活调味料与营养系统，吃的越好长的越壮"
+				"本整合包添加农夫乐事与农夫暇事，生活调味料与营养mod，吃的越好长的越壮"
 				""
 				"不送下界疣 因为要去下界"
 			]
@@ -43,11 +43,6 @@
 				{
 					id: "41D0BCE965911146"
 					item: "minecraft:potato"
-					type: "item"
-				}
-				{
-					id: "70C30E0E5BD1E25A"
-					item: "minecraft:beetroot_seeds"
 					type: "item"
 				}
 				{
@@ -103,6 +98,21 @@
 				{
 					id: "23178DD6F4E8F025"
 					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+				{
+					id: "597E368D2C90AC8E"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "179C41BD18AA1476"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+				{
+					id: "56AE31AC2AF75A38"
+					item: "minecraft:kelp"
 					type: "item"
 				}
 			]
@@ -268,42 +278,36 @@
 			y: 1.5d
 		}
 		{
-			id: "638787493F1B7188"
-			tasks: [{
-				id: "1836F4483A4373D5"
-				item: "minecraft:red_mushroom"
-				type: "item"
-			}]
-			x: -7.0d
-			y: 1.5d
-		}
-		{
 			id: "429F9D7DF2380CBE"
-			tasks: [{
-				id: "7905C45F9313F9CF"
-				item: "minecraft:brown_mushroom"
-				type: "item"
-			}]
-			x: -8.0d
-			y: 1.5d
-		}
-		{
-			id: "6EDED86CE06DE846"
-			tasks: [{
-				id: "56CC992712D95BCE"
-				item: "minecraft:crimson_fungus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7905C45F9313F9CF"
+					item: "minecraft:brown_mushroom"
+					type: "item"
+				}
+				{
+					id: "5C1C63B43CCE454B"
+					item: "minecraft:red_mushroom"
+					type: "item"
+				}
+			]
 			x: -9.0d
 			y: 1.5d
 		}
 		{
 			id: "4D73A467DC226A33"
-			tasks: [{
-				id: "4D317D6604BC9306"
-				item: "minecraft:warped_fungus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4D317D6604BC9306"
+					item: "minecraft:warped_fungus"
+					type: "item"
+				}
+				{
+					id: "1942AB53BEFF9833"
+					item: "minecraft:crimson_fungus"
+					type: "item"
+				}
+			]
 			x: -10.0d
 			y: 1.5d
 		}
@@ -728,26 +732,6 @@
 			y: 6.5d
 		}
 		{
-			id: "19D8CEBB6F92775D"
-			tasks: [{
-				id: "2A78B5A67A843CC8"
-				item: "minecraft:pumpkin"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 1.5d
-		}
-		{
-			id: "0E3D435C755E1819"
-			tasks: [{
-				id: "6F64877ECF32C8DA"
-				item: "minecraft:melon"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 1.5d
-		}
-		{
 			id: "51217D785296B1B3"
 			tasks: [{
 				id: "6C7155E773F571D8"
@@ -1019,23 +1003,20 @@
 		}
 		{
 			id: "29DBAFAECAA7BAAC"
-			tasks: [{
-				id: "4208331D2A490F5C"
-				item: "minecraft:melon_slice"
-				type: "item"
-			}]
-			x: -11.0d
-			y: 2.5d
-		}
-		{
-			id: "16465A8A3386CCEE"
-			tasks: [{
-				id: "25211723989215BC"
-				item: "farmersdelight:pumpkin_slice"
-				type: "item"
-			}]
-			x: -12.0d
-			y: 2.5d
+			tasks: [
+				{
+					id: "4208331D2A490F5C"
+					item: "minecraft:melon_slice"
+					type: "item"
+				}
+				{
+					id: "3F05A4452367E999"
+					item: "farmersdelight:pumpkin_slice"
+					type: "item"
+				}
+			]
+			x: -7.0d
+			y: 1.5d
 		}
 		{
 			id: "4D0E8BB02467F070"
@@ -1636,6 +1617,52 @@
 			}]
 			x: 1.5d
 			y: 0.0d
+		}
+		{
+			id: "1D0C2AA77989098F"
+			tasks: [
+				{
+					id: "451F9D3CB6B4C509"
+					item: "minecraft:glow_berries"
+					type: "item"
+				}
+				{
+					id: "58CB9A7E73304ECD"
+					item: "minecraft:sweet_berries"
+					type: "item"
+				}
+			]
+			x: -8.0d
+			y: 1.5d
+		}
+		{
+			id: "19A13C324D632FD0"
+			tasks: [
+				{
+					id: "41C8A7DA93AD89FA"
+					item: "minecraft:nether_wart"
+					type: "item"
+				}
+				{
+					id: "06237DB83177DA89"
+					item: "minecraft:chorus_fruit"
+					type: "item"
+				}
+			]
+			x: -5.0d
+			y: 2.5d
+		}
+		{
+			description: ["别看了 要UV中子素"]
+			id: "25F4954B053014A7"
+			size: 4.0d
+			tasks: [{
+				id: "21068F8225347E6C"
+				item: "avaritia:ultimate_stew"
+				type: "item"
+			}]
+			x: 0.75d
+			y: -4.0d
 		}
 	]
 	title: "种地与吃饭"
