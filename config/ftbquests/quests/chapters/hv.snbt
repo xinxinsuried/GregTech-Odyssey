@@ -1066,8 +1066,8 @@
 			shape: "hexagon"
 			size: 1.5d
 			tasks: [{
-				id: "343194BC10C81597"
-				item: "gtceu:evaporation_plant"
+				id: "47C3CDC51C57871F"
+				item: "gtocore:evaporation_plant"
 				type: "item"
 			}]
 			x: -6.0d

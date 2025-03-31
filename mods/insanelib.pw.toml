@@ -1,12 +1,13 @@
 name = "InsaneLib"
-filename = "insanelib-1.18.3.jar"
+filename = "insanelib-1.19.0.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "984f0c29d22cac1ea2b3ea1015806f7f148eaa4f"
-url = "https://edge.forgecdn.net/files/6224/822/insanelib-1.18.3.jar"
+hash = "c776cb740fcd010618bb76c639512f0097eec3f7"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6224822
+file-id = 6362613
 project-id = 465109

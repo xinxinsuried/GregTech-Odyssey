@@ -7,11 +7,11 @@ selfRestraint: false
 # Enabled, no mining required
 enablePrimitiveVoidOre: false
 
-# Reduce resource usage for the MultiBlock page (Reduce memory usage, improve startup speed, only on the client side)
-disableMultiBlockPage: false
-
 # Remove unnecessary loading
 fastMultiBlockPage: true
+
+# GT BlockEntity synchronization of client and server data
+synchronousInterval: 10
 
 # The interval increases gradually when the machine cannot find a recipe; this is the maximum interval.
 recipeMaxCheckInterval: 40
