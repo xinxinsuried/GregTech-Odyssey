@@ -1156,9 +1156,8 @@
 			size: 1.5d
 			subtitle: "你现在最好的矿物处理方式——"
 			tasks: [{
-				id: "26443F6A26F55D7A"
-				item: "minecraft:furnace"
-				type: "item"
+				id: "423D6918BA0C161F"
+				type: "checkmark"
 			}]
 			title: "996"
 			x: 11.5d
