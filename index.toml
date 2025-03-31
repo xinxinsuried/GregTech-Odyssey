@@ -410,7 +410,7 @@ hash = "3d01caf2a2dc466f8eb2bf929f445fd7ceb6f70c3f53e373944c438880e00bd8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ae.snbt"
-hash = "144d32b82493c93d3c1767a316613db2460fdaa468566812690428f3e108574a"
+hash = "812373a3a495c1bfecd3b07e5d1f80f7a592c0b5e7d9ae2cc930fd0adca85b3b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
@@ -446,7 +446,7 @@ hash = "9d3e8316d3b70441f73537d9f5eb50f2c51111efbd958ce00b40ed54f5ced682"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "5e7cccd0378dd9c8799dca64bd87d425a49ab57cf1bdac6f39fd08a80e2f56a2"
+hash = "ce639bbe7e54abdfb441d8348f311aaafe52e080f459a7f58cff02634d705180"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/max.snbt"
@@ -470,7 +470,7 @@ hash = "b64d65a0d0eddab97db8f0c85631f784fdec852b4113863e01834a61b4828850"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "771a508f895ba31a662017ae197d0caedf483e580e8e0a7651315c17ec530176"
+hash = "367fece97c42f1acd960e235d34c88c2f987548e3b573a6329da28fd2a479b8b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -487,6 +487,10 @@ hash = "b6f3bbc982dcb6b7275fd675a00d99393044937bc62dc93e8b6c958a20f988a7"
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
 hash = "d335e38d09c666c80e1f504c12e1458bc067b94a077fc40d53a35f9776c5769e"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/util.snbt"
+hash = "e155e01bbf33513d5eea047ab04eba6d7d062b7f6634dc4d2e169f293c32b2ff"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uv.snbt"
