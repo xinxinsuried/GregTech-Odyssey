@@ -242,10 +242,6 @@
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
-			tasks: [{
-				id: "2045C427A3CDD5D9"
-				type: "checkmark"
-			}]
 			title: "难度与模式"
 			x: 3.5d
 			y: 0.0d
@@ -255,10 +251,6 @@
 			description: ["开了之后不能使用作弊指令与从EMI里拿东西"]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
-			tasks: [{
-				id: "5B43BB67734E858B"
-				type: "checkmark"
-			}]
 			title: "自我约束模式"
 			x: 0.0d
 			y: 2.5d
@@ -269,8 +261,9 @@
 			icon: "minecraft:coal_ore"
 			id: "20BC48DF78F11B24"
 			tasks: [{
-				id: "2317888DE5BAB8B3"
-				type: "checkmark"
+				id: "03215BD517996CFD"
+				item: "minecraft:coal_ore"
+				type: "item"
 			}]
 			title: "矿石倍率"
 			x: 2.0d
@@ -287,10 +280,6 @@
 			]
 			icon: "minecraft:beef"
 			id: "1786BB8F04B92CB3"
-			tasks: [{
-				id: "5B0B521025343930"
-				type: "checkmark"
-			}]
 			title: "强化AI"
 			x: -2.0d
 			y: -4.0d
