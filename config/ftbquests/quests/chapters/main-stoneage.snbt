@@ -66,7 +66,8 @@
 			icon: "gtceu:portable_debug_scanner"
 			id: "5C4137F64F9ADA50"
 			min_width: 350
-			size: 1.5d
+			shape: "pentagon"
+			size: 2.0d
 			subtitle: "电压等级对应的主要内容"
 			tasks: [{
 				id: "2E7AE829275616F9"
@@ -273,6 +274,7 @@
 				"7D6FCF32575CB7DA"
 				"5A8040869C6ECADD"
 			]
+			dependency_requirement: "one_completed"
 			description: ["兜兜转转大半天可能还是去获取点肉来能填饱肚子"]
 			icon: "minecraft:beef"
 			id: "368F06963D54EFCA"
@@ -439,7 +441,7 @@
 			y: -3.5d
 		}
 		{
-			dependencies: ["561D79DE960A034D"]
+			dependencies: ["30D4CC9142D59DBD"]
 			description: [
 				"好吧，你现在需要去搞点黏土了。"
 				""
@@ -447,6 +449,8 @@
 				""
 				"那么黏土去哪找呢？去河流边上，或者直接点，繁茂洞穴。"
 			]
+			hide_dependency_lines: true
+			icon: "minecraft:clay_ball"
 			id: "664BDC18052B54FC"
 			rewards: [{
 				count: 64
@@ -455,15 +459,30 @@
 				type: "item"
 			}]
 			subtitle: "只不过是轻轻动了动黏土而已"
-			tasks: [{
-				count: 64L
-				id: "677A831E0B32880F"
-				item: "minecraft:clay_ball"
-				type: "item"
-			}]
+			tasks: [
+				{
+					count: 64L
+					id: "677A831E0B32880F"
+					item: "minecraft:clay_ball"
+					type: "item"
+				}
+				{
+					icon: "minecraft:sand"
+					id: "273B6A72B93BFB2C"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:sand"
+						}
+					}
+					title: "沙子"
+					type: "item"
+				}
+			]
 			title: "洞穴毁灭者"
-			x: 8.0d
-			y: -2.0d
+			x: 11.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["561D79DE960A034D"]
@@ -530,12 +549,6 @@
 				""
 				"焦炉产出的焦煤是正常煤炭燃烧时间的两倍，同时产出的杂酚油用来制作蒸汽时代的设备"
 				""
-				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体。"
-				""
-				"所以实现自动化你可能需要一个漏斗。"
-				""
-				"焦炉仓与主方块共享内容物。"
-				""
 				"&o&8一定要多堆点焦炉，要炼钢一台可不够。"
 			]
 			icon: "gtceu:coke_oven"
@@ -562,8 +575,8 @@
 				}
 			]
 			title: "焦炉"
-			x: 11.0d
-			y: -4.0d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["45C8A2DF9C0E5473"]
@@ -595,43 +608,7 @@
 					type: "item"
 				}
 			]
-			x: 11.5d
-			y: 1.5d
-		}
-		{
-			dependencies: [
-				"10C397237163BFFC"
-				"45C8A2DF9C0E5473"
-				"227F19741A364889"
-			]
-			description: [
-				"你需要用你的焦炉来制作一些焦煤，焦煤的燃烧时间更长。"
-				"高炉你马上就可以做了，建议多做点加快一下速度，毕竟确实需要不少矿物。"
-			]
-			icon: "minecraft:campfire"
-			id: "2EA8DC57A61690C2"
-			rewards: [{
-				id: "4829BCF4756E116F"
-				item: "minecraft:coal"
-				type: "item"
-			}]
-			subtitle: "有关燃料的二三事"
-			tasks: [{
-				consume_items: true
-				count: 32L
-				id: "551FD48B07C31F4C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:coals"
-					}
-				}
-				title: "Any #minecraft:coals"
-				type: "item"
-			}]
-			title: "添柴加火"
-			x: 11.0d
+			x: 12.0d
 			y: -2.0d
 		}
 		{
@@ -780,40 +757,6 @@
 			title: "其他矿石"
 			x: 15.5d
 			y: 0.0d
-		}
-		{
-			dependencies: ["0EFC6C245CC001CB"]
-			description: [
-				"煤炭和木炭都是很好的燃料，多整点，因为你需要熔炼很多很多的矿石。"
-				""
-				"在 GregTech 也有更好的选择，找我换点吧"
-			]
-			icon: "minecraft:charcoal"
-			id: "227F19741A364889"
-			rewards: [{
-				count: 8
-				id: "5D8FB2C5574AE36F"
-				item: "gtceu:coke_gem"
-				type: "item"
-			}]
-			subtitle: "但是有更好的"
-			tasks: [{
-				consume_items: true
-				count: 16L
-				id: "7640079A190B5CD8"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "minecraft:coals"
-					}
-				}
-				title: "任意煤炭"
-				type: "item"
-			}]
-			title: "正确的燃料"
-			x: 13.5d
-			y: -2.0d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
@@ -1537,8 +1480,8 @@
 				title: "海上黑金"
 				type: "structure"
 			}]
-			x: 10.5d
-			y: 1.5d
+			x: 10.0d
+			y: -2.0d
 		}
 		{
 			description: [
@@ -1637,48 +1580,32 @@
 		}
 		{
 			dependencies: ["6D4B71E543059C19"]
+			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
 			id: "39A6C5524A2490C5"
 			tasks: [{
+				consume_items: false
 				id: "4A7356E1096054EF"
 				item: "gtceu:coke_oven_brick"
 				type: "item"
 			}]
-			x: 9.5d
-			y: -4.0d
-		}
-		{
-			dependencies: ["561D79DE960A034D"]
-			icon: "minecraft:sand"
-			id: "441DACBF4A8E99D2"
-			tasks: [{
-				id: "1F194F106C67344C"
-				item: {
-					Count: 1
-					id: "itemfilters:tag"
-					tag: {
-						value: "forge:sand"
-					}
-				}
-				title: "沙子"
-				type: "item"
-			}]
-			title: "沙子"
-			x: 9.5d
-			y: -2.0d
+			x: 11.5d
+			y: 9.5d
 		}
 		{
 			dependencies: [
-				"441DACBF4A8E99D2"
 				"664BDC18052B54FC"
+				"4920255C0FDE6187"
 			]
+			description: ["你需要116x焦炉砖以搭建一个最简可用焦炉"]
 			id: "6D4B71E543059C19"
 			tasks: [{
 				id: "24EA2D701E78667F"
 				item: "gtceu:compressed_coke_clay"
+				optional_task: true
 				type: "item"
 			}]
-			x: 8.0d
-			y: -4.0d
+			x: 13.5d
+			y: 9.5d
 		}
 		{
 			dependencies: ["7D6FCF32575CB7DA"]
@@ -1726,8 +1653,8 @@
 				type: "item"
 			}]
 			title: "在找繁茂洞穴？"
-			x: 8.0d
-			y: 2.0d
+			x: 4.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["67264EF0565CC030"]
@@ -1843,6 +1770,36 @@
 			}]
 			x: 3.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["30D4CC9142D59DBD"]
+			id: "4920255C0FDE6187"
+			tasks: [{
+				id: "3D98DFA0F224B508"
+				item: "gtceu:brick_wooden_form"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["10C397237163BFFC"]
+			description: [
+				"焦炉仓可以同时作为输入和输出，它&e不会&r自动抽取物品，但可以&e自动从输出口输出&r物品和流体。"
+				""
+				"所以实现自动化你可能需要一个漏斗。"
+				""
+				"焦炉仓与主方块共享内容物。"
+			]
+			id: "6BA5DA36E8163809"
+			shape: "diamond"
+			tasks: [{
+				id: "54186B8884FF0220"
+				item: "gtceu:coke_oven_hatch"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 11.5d
 		}
 	]
 	subtitle: ["Hello World!"]

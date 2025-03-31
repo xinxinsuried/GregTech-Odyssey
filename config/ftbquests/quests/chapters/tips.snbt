@@ -87,7 +87,7 @@
 				type: "checkmark"
 			}]
 			x: 0.0d
-			y: -3.75d
+			y: -4.5d
 		}
 		{
 			dependencies: ["79646E8E449D8A1A"]
@@ -226,6 +226,8 @@
 			]
 			icon: "gtocore:spacetime_huge_fluid_pipe"
 			id: "0853003F6BB9C758"
+			shape: "pentagon"
+			size: 1.5d
 			title: "管道线缆同步频率"
 			x: -3.5d
 			y: 0.0d
@@ -242,6 +244,7 @@
 			]
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
+			size: 1.5d
 			title: "难度与模式"
 			x: 3.5d
 			y: 0.0d
@@ -251,8 +254,10 @@
 			description: ["开了之后不能使用作弊指令与从EMI里拿东西"]
 			icon: "ae2:creative_item_cell"
 			id: "6E81629D88D0710E"
+			shape: "pentagon"
+			size: 1.5d
 			title: "自我约束模式"
-			x: 0.0d
+			x: 1.0d
 			y: 2.5d
 		}
 		{
@@ -260,6 +265,8 @@
 			description: ["主要影响矿石处理机器的主产物产出倍率"]
 			icon: "minecraft:coal_ore"
 			id: "20BC48DF78F11B24"
+			shape: "pentagon"
+			size: 1.5d
 			tasks: [{
 				id: "03215BD517996CFD"
 				item: "minecraft:coal_ore"
@@ -280,9 +287,53 @@
 			]
 			icon: "minecraft:beef"
 			id: "1786BB8F04B92CB3"
+			shape: "pentagon"
+			size: 1.5d
 			title: "强化AI"
 			x: -2.0d
 			y: -4.0d
+		}
+		{
+			dependencies: ["79646E8E449D8A1A"]
+			description: [
+				"无论你想建造球形、圆形、柱体或者其他任何你想要的结构，按下&e[Alt]&r并选择对应形状，注意不要一次建造过大的结构，否则会造成FPS灾难"
+				""
+				"&e建筑手杖&r和&e建筑小帮手&r同样可用"
+			]
+			icon: {
+				Count: 1
+				id: "constructionwand:iron_wand"
+				tag: {
+					Damage: 0
+					wand_options: { }
+				}
+			}
+			id: "7CAB9E890F8F91C4"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Effortless Building"
+			tasks: [
+				{
+					id: "564E6D109A99B6EF"
+					item: {
+						Count: 1
+						id: "constructionwand:stone_wand"
+						tag: {
+							Damage: 0
+							wand_options: { }
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3D7C50DF555C556E"
+					item: "buildinggadgets2:gadget_building"
+					type: "item"
+				}
+			]
+			title: "建造提示"
+			x: -1.0d
+			y: 2.5d
 		}
 	]
 	title: "提示"
