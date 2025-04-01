@@ -1800,39 +1800,6 @@
 			x: 9.0d
 			y: 11.5d
 		}
-		{
-			can_repeat: true
-			description: [
-				"任务书目前正在逐步完善，需要玩家们进行全方位的测试与反馈。"
-				"反馈通道1（首选）：https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues"
-				"反馈通道2（备选）：QQ1011067298"
-			]
-			disable_toast: true
-			icon: "botania:third_eye"
-			id: "1E02B0A2A523C675"
-			rewards: [
-				{
-					auto: "enabled"
-					command: "/tellraw @a {\"text\": \"任务书目前正在逐步完善，需要玩家们进行全方位的测试与反馈。\"}"
-					id: "253C16AEBAD75915"
-					type: "command"
-				}
-				{
-					auto: "enabled"
-					command: "/tellraw @a {\"text\":\"点击前往Github\",\"extra\":[{\"text\":\"反馈链接\",\"color\":\"green\",\"bold\":\"true\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/GregTech-Odyssey/GregTech-Odyssey/issues\"}}]}"
-					id: "16286350226D91FE"
-					type: "command"
-				}
-			]
-			size: 2.0d
-			tasks: [{
-				id: "383D4F255BC39234"
-				title: "看看我！"
-				type: "checkmark"
-			}]
-			x: 0.0d
-			y: 3.0d
-		}
 	]
 	subtitle: ["Hello World!"]
 	title: "由此开始"
