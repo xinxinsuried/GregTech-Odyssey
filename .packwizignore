@@ -28,6 +28,7 @@
 /config/spark/
 /config/fabric
 /mods/.index/
+/mods/*.jar
 /gtceu/
 /patchouli_books/
 /minemenu/
@@ -40,6 +41,7 @@
 /CustomSkinLoader/caches
 /CustomSkinLoader/CustomSkinAPIPlus-ClientID
 /CustomSkinLoader/CustomSkinLoader.log
+/XaeroWaypoints*/
 .idea/
 .DS_Store
 packwiz
@@ -54,3 +56,7 @@ packwiz
 fixup.sh
 /.github
 /result
+
+!gtocore-*.jar
+!gtceu-*.jar
+!gtmthings-*.jar

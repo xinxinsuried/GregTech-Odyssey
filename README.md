@@ -1,12 +1,13 @@
 # GregTech-Odyssey
 
-- QQ群：1011067298
+- QQ群：970746255
 
 ## 协议
 
-- 本整合包使用 [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)，禁止商业使用，可以自由分发，但分发时必须保留原作者信息，并使用相同协议
-- [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（src部分）使用 [GNU LESSER GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/lgpl-3.0.html)，禁止商业使用
-- 任务（文本），原创纹理为 All Rights Reserved，未经授权禁止使用
+- 该系列全部内容禁止商业使用
+- 本整合包使用 [Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+- [核心模组代码](https://github.com/GregTech-Odyssey/GTOCore)（src/main/java/部分）使用 [GNU GENERAL PUBLIC LICENSE Version 3](https://www.gnu.org/licenses/gpl-3.0.html)
+- 任务（文本），原创纹理保留所有权利，未经授权禁止使用
 
 ## 使用
 
@@ -24,7 +25,7 @@ packwiz cf export
 
 ### 下载 github actions 自动构建的整合包
 
-todo
+- 登陆github就行
 
 ## 开发
 

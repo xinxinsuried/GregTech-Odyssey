@@ -414,7 +414,7 @@ hash = "812373a3a495c1bfecd3b07e5d1f80f7a592c0b5e7d9ae2cc930fd0adca85b3b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
-hash = "275ab29640d962d940667996c428566d198f791c13a4a6be2fe30ed64129420e"
+hash = "8ff4a9b961937206ffa1267fd7c4f6c8085595f6ba730f48c8a3d85e37d779a5"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
@@ -426,7 +426,7 @@ hash = "b92d152903f51996fa66c1750a4e576a1fb0884eef24c653cf09e7b981e88bc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "0b377c853a765bbbd4b3e6aa8a7a5d77cbf916d9da16afbde2ed5a05ce2a0599"
+hash = "48f11cd3c858ba9200450a27168fb0e907b538b5458658e78a46c492ffc84eec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -434,7 +434,7 @@ hash = "a11a9ef26c0ca21641a3d4267224c7f0d63d391f789fbd051369b6d8de6ef3e8"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
-hash = "7d3b3b13fd5a0be22ab7ff1b79c1268a5274b9a50377aed1bb461618bebc048b"
+hash = "4255ec2f85c34d5b58f30a95e2d3d224b416fb96a5ae6ff40e532bd1ad2f5ada"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/luv.snbt"
@@ -470,7 +470,7 @@ hash = "b64d65a0d0eddab97db8f0c85631f784fdec852b4113863e01834a61b4828850"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "367fece97c42f1acd960e235d34c88c2f987548e3b573a6329da28fd2a479b8b"
+hash = "a2e3be79724cb79cd17f47379a48a365576cf1269416558a95a453de591e18b3"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -893,7 +893,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "982c360501fc91a42249c401ad9500c05c5a8fc4cd66a0b00425456e278a2c8b"
+hash = "415c1bb058287bd60abb4ffc9210963699259862e32b039ececf3c0b497e968b"
 metafile = true
 
 [[files]]
@@ -1296,7 +1296,7 @@ hash = "6a8dc503130c055f14f45b0869cb85e9e86df8157b39f07bbb40a504a7f41324"
 
 [[files]]
 file = "mods/gtocore-0.1.jar"
-hash = "cc3c845470b2cd3e940eadb5df96542e05b047cc8beac3597bee0090ca521fb6"
+hash = "ac626e78bae4c3cd7ecb9d35ded144c4cf8da97550e33d5d5dab164ddc306f04"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1545,7 +1545,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "56957691238d2ffc85bceed3a2130eb2e08a2118db77f990d1ff28eb01c74ddc"
+hash = "c4d570d40f3db19e7c42d1e944ba8b05f453deb365931847df93e5c7b286c85a"
 metafile = true
 
 [[files]]

@@ -228,6 +228,10 @@
 			id: "0853003F6BB9C758"
 			shape: "pentagon"
 			size: 1.5d
+			tasks: [{
+				id: "6D1ACE03313D9E5C"
+				type: "checkmark"
+			}]
 			title: "管道线缆同步频率"
 			x: -3.5d
 			y: 0.0d
@@ -245,6 +249,10 @@
 			icon: "minecraft:compass"
 			id: "5183DB6A793BB3C6"
 			size: 1.5d
+			tasks: [{
+				id: "29914EB1B76193EA"
+				type: "checkmark"
+			}]
 			title: "难度与模式"
 			x: 3.5d
 			y: 0.0d
@@ -256,6 +264,10 @@
 			id: "6E81629D88D0710E"
 			shape: "pentagon"
 			size: 1.5d
+			tasks: [{
+				id: "55CB31CB83DD6D93"
+				type: "checkmark"
+			}]
 			title: "自我约束模式"
 			x: 1.0d
 			y: 2.5d
@@ -268,9 +280,8 @@
 			shape: "pentagon"
 			size: 1.5d
 			tasks: [{
-				id: "03215BD517996CFD"
-				item: "minecraft:coal_ore"
-				type: "item"
+				id: "20E2BED5FB9E1A0B"
+				type: "checkmark"
 			}]
 			title: "矿石倍率"
 			x: 2.0d
@@ -289,6 +300,10 @@
 			id: "1786BB8F04B92CB3"
 			shape: "pentagon"
 			size: 1.5d
+			tasks: [{
+				id: "17A33145F3C67C67"
+				type: "checkmark"
+			}]
 			title: "强化AI"
 			x: -2.0d
 			y: -4.0d

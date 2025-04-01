@@ -28,6 +28,7 @@
 /config/spark/
 /config/fabric
 /mods/.index/
+/mods/*.jar
 /gtceu/
 /patchouli_books/
 /minemenu/
@@ -48,4 +49,7 @@ packwiz
 /*.zip
 /*.mrpack
 /result
-mods/*.jar
+
+!gtocore-*.jar
+!gtceu-*.jar
+!gtmthings-*.jar
