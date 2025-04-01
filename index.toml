@@ -426,7 +426,7 @@ hash = "b92d152903f51996fa66c1750a4e576a1fb0884eef24c653cf09e7b981e88bc6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "48f11cd3c858ba9200450a27168fb0e907b538b5458658e78a46c492ffc84eec"
+hash = "56da233241f97d8909c973cb05231d841d172e90a46def24c8e95d9625ad4ff9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
@@ -1182,11 +1182,6 @@ hash = "9a748a2bfac6e79e42d49380148594b706371172e9137889663c214cfceaa973"
 metafile = true
 
 [[files]]
-file = "mods/fastquit-forge.pw.toml"
-hash = "2b8044783300820c52dc52a6e8852b3ec4f65e3e29102601cc0bbbda3d62956b"
-metafile = true
-
-[[files]]
 file = "mods/fastsuite.pw.toml"
 hash = "efc2f10fa8efccdc03c9ae77912e9bec0226e075fa0b1d8a0bb2adea20a0a4a6"
 metafile = true
@@ -1296,7 +1291,7 @@ hash = "6a8dc503130c055f14f45b0869cb85e9e86df8157b39f07bbb40a504a7f41324"
 
 [[files]]
 file = "mods/gtocore-0.1.jar"
-hash = "ac626e78bae4c3cd7ecb9d35ded144c4cf8da97550e33d5d5dab164ddc306f04"
+hash = "11d98b8135bafdc618138935232b92f165d15e8301262bbcd745adbc526d7376"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"

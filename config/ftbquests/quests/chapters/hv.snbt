@@ -1260,13 +1260,20 @@
 			icon: "gtocore:space_probe_mk1"
 			id: "21624A4965D8D2D7"
 			shape: "hexagon"
-			tasks: [{
-				dimension: "ad_astra:moon_orbit"
-				icon: "gtocore:space_probe_mk1"
-				id: "3DD2A9B564DE322C"
-				title: "造访月球轨道空间站"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "ad_astra:earth_orbit"
+					icon: "gtocore:space_probe_mk1"
+					id: "3DD2A9B564DE322C"
+					optional_task: true
+					title: "造访轨道空间站"
+					type: "dimension"
+				}
+				{
+					id: "32E66E24014A709F"
+					type: "checkmark"
+				}
+			]
 			x: 11.0d
 			y: 3.5d
 		}
