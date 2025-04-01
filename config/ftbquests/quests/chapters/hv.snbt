@@ -36,6 +36,15 @@
 	quests: [
 		{
 			dependencies: ["4BA890971C18F938"]
+			description: [
+				"欢迎来到&5EV&r阶段！"
+				""
+				"你的最终目标是&9IV&r&6机器外壳&r......？"
+				""
+				"不，这是一个&d航天时代&r！"
+				""
+				"最终目标是&6四阶火箭&r"
+			]
 			id: "2F6C81E3B10365E8"
 			shape: "gear"
 			size: 2.0d
@@ -170,7 +179,11 @@
 		}
 		{
 			dependencies: ["4DEB386D849645DD"]
-			description: ["IV级电路，目前达到的最高等级"]
+			description: [
+				"IV级电路，目前达到的最高等级"
+				""
+				"你应该第一时间想到你需要它来做出下一级别的&6电路组装机&r"
+			]
 			id: "09831EA3AD53828C"
 			tasks: [{
 				id: "30FE72FBF37CD130"
@@ -248,7 +261,7 @@
 				item: "gtocore:fishing_ground"
 				type: "item"
 			}]
-			x: -7.5d
+			x: -8.25d
 			y: -6.0d
 		}
 		{
@@ -492,9 +505,11 @@
 				}
 				type: "item"
 			}]
+			shape: "hexagon"
 			tasks: [{
 				dimension: "ad_astra:moon"
 				id: "6A35D51A8BE1AB7D"
+				title: "造访月球"
 				type: "dimension"
 			}]
 			title: "前往月球"
@@ -588,6 +603,7 @@
 			id: "4C290988E90405F9"
 			shape: "hexagon"
 			size: 1.5d
+			subtitle: "没有人比我更懂化学"
 			tasks: [{
 				id: "114A13A5C77DAD94"
 				item: "gtceu:large_chemical_reactor"
@@ -599,6 +615,8 @@
 		{
 			dependencies: ["6A8869A6275ECA3E"]
 			id: "5F5B9F256A751484"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "20BA69BC1C87E76F"
 				item: "gtceu:vacuum_freezer"
@@ -625,8 +643,14 @@
 		}
 		{
 			dependencies: ["768BCE7842E31597"]
-			description: ["除了电力高炉能获得其增益，许多带有&e线圈结构方块&r的多方块机器都能一步步升级线圈获得更高的生产力"]
+			description: [
+				"升级&6镍铬合金线圈&r，高炉可获得一次无损超频"
+				""
+				"除了电力高炉能获得其增益，许多带有&e线圈结构方块&r的多方块机器都能一步步升级线圈获得更高的生产力"
+			]
 			id: "31C82EC18535B9B9"
+			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "58DEE41E59680161"
 				item: "gtceu:nichrome_coil_block"
@@ -659,6 +683,7 @@
 			description: ["高效部件外壳生产"]
 			id: "686D81CACEC8506F"
 			shape: "hexagon"
+			size: 1.5d
 			tasks: [{
 				id: "2AD7E92169125F8D"
 				item: "gtocore:three_dimensional_printer"
@@ -669,6 +694,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
+			description: ["&6自动维护仓&r为你免去了维护的痛苦"]
 			id: "37F6B84024604016"
 			tasks: [{
 				id: "15D6A5FA43C408BE"
@@ -676,11 +702,15 @@
 				type: "item"
 			}]
 			x: -8.0d
-			y: 2.0d
+			y: 1.5d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
-			description: [""]
+			description: [
+				"&6可配置维护仓&r能使你通过调整维护仓获得&e免费的机器运行速度&r，但换来的代价是更频繁的维护问题"
+				""
+				"你也可以降低机器运行速度以换来更少的维护问题"
+			]
 			id: "0FE9FDD72A50DCE5"
 			tasks: [{
 				id: "559CEB309CCECACB"
@@ -692,17 +722,19 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
+			description: ["终于，我们有了研磨副产物"]
 			id: "46A3A788E617C3F5"
 			tasks: [{
 				id: "15FE1FE18ABE1E54"
 				item: "gtceu:hv_macerator"
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: -7.5d
+			y: 3.0d
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
+			description: [""]
 			id: "45B2C27B819498DE"
 			tasks: [{
 				id: "78C5BB66D075C413"
@@ -838,11 +870,13 @@
 			y: -5.0d
 		}
 		{
+			dependencies: ["5D828A5258BFF11F"]
 			description: [
 				"&632B火箭燃料&r是登月所需要的最小需求量"
 				""
 				"火箭燃料也是很好的发电燃料，你可以选择&6火箭引擎&r作为你的主力发电设施，这需要你搭建稳定供应的&e火箭燃料产线&r"
 			]
+			hide_dependency_lines: true
 			id: "4AED8DE6D6175D97"
 			min_required_dependencies: 1
 			tasks: [{
@@ -915,6 +949,7 @@
 			]
 			hide_dependency_lines: true
 			id: "4331EEF3BA9799FD"
+			shape: "hexagon"
 			subtitle: "史蒂夫的一小步"
 			tasks: [
 				{
@@ -1042,9 +1077,11 @@
 		{
 			dependencies: ["5D828A5258BFF11F"]
 			description: [
-				"HV蒸汽轮机倒下了，但老大哥站起来了"
+				"HV蒸汽轮机倒下了，但另一位老大哥站起来了"
 				""
 				"你的第一个真正的多方块发电设施，通过提升&6转子支架&r等级获得&d指数级&r的功率提升"
+				""
+				"放入其中的涡轮转子材料影响发电效率和功率"
 			]
 			hide_dependency_lines: true
 			id: "40C366999B51AD3B"
@@ -1070,7 +1107,7 @@
 				item: "gtocore:evaporation_plant"
 				type: "item"
 			}]
-			x: -6.0d
+			x: -6.75d
 			y: -6.0d
 		}
 		{
@@ -1087,6 +1124,7 @@
 		}
 		{
 			dependencies: ["5D828A5258BFF11F"]
+			description: ["制造出HV组装机，你可以开始大批量生产&6贴片元件&r！"]
 			id: "7E963A64B5EB7C20"
 			tasks: [{
 				id: "54EB798BB18E5B38"
@@ -1203,6 +1241,7 @@
 			description: ["比钢锅炉更强大的锅炉，喂饱你的蒸汽涡轮"]
 			id: "1E65EF0E137A13A7"
 			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "79680E3A32AB5699"
 				item: "gtceu:titanium_large_boiler"
@@ -1218,11 +1257,14 @@
 				""
 				"不但如此，&e光伏电站&r在&6轨道空间站&r能得到最高的发电量"
 			]
+			icon: "gtocore:space_probe_mk1"
 			id: "21624A4965D8D2D7"
+			shape: "hexagon"
 			tasks: [{
 				dimension: "ad_astra:moon_orbit"
+				icon: "gtocore:space_probe_mk1"
 				id: "3DD2A9B564DE322C"
-				title: "月球轨道空间站"
+				title: "造访月球轨道空间站"
 				type: "dimension"
 			}]
 			x: 11.0d
@@ -1230,8 +1272,10 @@
 		}
 		{
 			dependencies: ["4BA890971C18F938"]
-			description: ["T2级别的光伏电站，比上一等级拥有更高的发电量"]
+			description: ["T2级别的&6光伏电站&r，比上一等级拥有更高的发电量"]
 			id: "3435E0C086B26CBD"
+			shape: "diamond"
+			size: 1.5d
 			tasks: [{
 				id: "4A58C5A29D610BEA"
 				item: "gtocore:pulsating_photovoltaic_power_station"
@@ -1239,6 +1283,88 @@
 			}]
 			x: 17.0d
 			y: -1.0d
+		}
+		{
+			dependencies: ["47E810FD91649121"]
+			id: "71ADEF13ADAFE1F0"
+			tasks: [{
+				id: "6B63ED7747204EE0"
+				item: "gtceu:smd_resistor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["47E810FD91649121"]
+			id: "261AF5AAE0576A3B"
+			tasks: [{
+				id: "6B08017AB84D717D"
+				item: "gtceu:smd_transistor"
+				type: "item"
+			}]
+			x: -8.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["47E810FD91649121"]
+			id: "553B055E72DF5B91"
+			tasks: [{
+				id: "59BA82BBE4F163D5"
+				item: "gtceu:smd_capacitor"
+				type: "item"
+			}]
+			x: -9.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["47E810FD91649121"]
+			id: "0DA8792DBD69AD9D"
+			tasks: [{
+				id: "6FB5EE5036A122A3"
+				item: "gtceu:smd_inductor"
+				type: "item"
+			}]
+			x: -7.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["47E810FD91649121"]
+			description: ["你可以无需经过&e铂处理&r，从化学浸洗过的镍矿中直接获得&6铂粉&r"]
+			id: "5559EBCB8F2C4296"
+			tasks: [{
+				id: "7399BFE90A39A251"
+				item: "gtceu:smd_diode"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 7.0d
+		}
+		{
+			dependencies: ["7E963A64B5EB7C20"]
+			id: "47E810FD91649121"
+			tasks: [{
+				id: "7D3334E8AD4302E3"
+				title: "更便宜的贴片元件！"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2F6C81E3B10365E8"]
+			description: ["废料盒右键可以抽奖，也可以放入本机器自动抽奖"]
+			hide_dependency_lines: true
+			id: "4325A21DE21CBA05"
+			shape: "hexagon"
+			size: 1.5d
+			tasks: [{
+				id: "51412005A9122A4D"
+				item: "gtocore:recycler"
+				type: "item"
+			}]
+			x: -5.25d
+			y: -6.0d
 		}
 	]
 	subtitle: ["Tier3-HV"]
