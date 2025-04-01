@@ -365,10 +365,6 @@ file = "config/fastbench.cfg"
 hash = "76a5d47ca4e918446d37edf7d09196af462f7e78aff8c2aa507d2b151117356b"
 
 [[files]]
-file = "config/fastquit.toml"
-hash = "ec44be42be23a22b0162c081224af1cda056160f1955c07194e5e8c4c379631f"
-
-[[files]]
 file = "config/fastsuite.cfg"
 hash = "4d26b4c93838e3e912a8e09f9be0395cd0b7a264f250ea8aa72d68507ce12250"
 
@@ -462,7 +458,7 @@ hash = "e2a0fa89ced1cd0f04eb4368d227a83ff8ded13133adf1ca402e965a8f0b6bec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ores.snbt"
-hash = "d69c4ca64d4f7b150d51d715eaa1ea075828a6891c8cfd7a51a4a7b6dbab7cdc"
+hash = "0a8c891be08b15934b8b95ff14e7cf7d89de4cfdcaa6aee8b072ff085e5d7617"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
@@ -1291,7 +1287,7 @@ hash = "6a8dc503130c055f14f45b0869cb85e9e86df8157b39f07bbb40a504a7f41324"
 
 [[files]]
 file = "mods/gtocore-0.1.jar"
-hash = "11d98b8135bafdc618138935232b92f165d15e8301262bbcd745adbc526d7376"
+hash = "7e8af139fcf5df287b1e97ad8b5d248945e2abe83e1d75a00f17346272187fd3"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1380,7 +1376,7 @@ metafile = true
 
 [[files]]
 file = "mods/modern-ui.pw.toml"
-hash = "76ef90fc127d5dffb1c0fea720e88d0c8568354d0b323ce4f90c72252657d41d"
+hash = "650d26ddf8a737ddeba623a962387846d7c38ae51144f2eb81c794d060645673"
 metafile = true
 
 [[files]]
