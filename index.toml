@@ -1283,7 +1283,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.4.jar"
-hash = "09355b7b441e5cbc77f251491d1e9e0b58cfac4fe830f71fff1fb3523e5ebeab"
+hash = "9eacdcf0a6bb0244ee2d2ee274ae24110901206abc6d85cc72b52be9b98cf89c"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
