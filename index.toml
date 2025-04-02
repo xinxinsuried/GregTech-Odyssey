@@ -262,7 +262,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+hash = "5acb2bd91303d4a5baacc1fbf61605950f83c239fdd3387f92dd3d4ab40cc706"
 
 [[files]]
 file = "config/emi.css"
@@ -506,7 +506,7 @@ hash = "a7daa28307dc6b5aa5f334afea3fdbf72ac6f21455485c9cdeb1e717a69161e8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "8a6650e970e6678f3e2cf388b5c1a2592d22698fb63fd159fbed50c74fa47449"
+hash = "4c33f01845f1bd874c6fac96283b05deafed08fd71c0ff7458e6374921142ef9"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/5663b9afadbde9f2.snbt"
@@ -1278,16 +1278,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtceu-1.20.1-1.7.0.jar"
-hash = "3fa131b32c477a44a7869beedac5966cd5c893111ab93e0d762a143c4387bda2"
-
-[[files]]
 file = "mods/gtmthings-1.4.0.a.jar"
-hash = "6a8dc503130c055f14f45b0869cb85e9e86df8157b39f07bbb40a504a7f41324"
+hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
-file = "mods/gtocore-0.1.jar"
-hash = "7e8af139fcf5df287b1e97ad8b5d248945e2abe83e1d75a00f17346272187fd3"
+file = "mods/gtocore-0.0.4.jar"
+hash = "7195db5ae966547411b55ca01f1e8eeafe05352503bc0c6de1d4bff3b1a5315d"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1531,12 +1527,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "a7f7c2561256bcd6e4d3dd4df9e84f4cfddbe460d4b012eaca4c0fb28b0efd96"
+hash = "3b0246e0ac2db773f369080a65686ebb114f79a382f244427d0bc1eebb1e82e5"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "c4d570d40f3db19e7c42d1e944ba8b05f453deb365931847df93e5c7b286c85a"
+hash = "5608628840983d436c2d83840e3f5d4f721020e2575304dbb1c92541f2b43968"
 metafile = true
 
 [[files]]
