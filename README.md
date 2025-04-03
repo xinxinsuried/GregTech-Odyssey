@@ -27,6 +27,12 @@ packwiz cf export
 
 - 登陆github就行
 
+### 从 release 下载
+
+<https://github.com/GregTech-Odyssey/GregTech-Odyssey/releases>
+
+nightly release 是最新的打包
+
 ## 开发
 
 详细用法见 <https://packwiz.infra.link/tutorials/creating/getting-started/>
