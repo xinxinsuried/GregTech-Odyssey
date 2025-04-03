@@ -1070,7 +1070,7 @@
 			subtitle: "部件的部件"
 			tasks: [{
 				id: "146B9CA3A43BD5F0"
-				item: "gtceu:steel_motor_enclosure"
+				item: "gtocore:steel_motor_enclosure"
 				type: "item"
 			}]
 			title: "你会讨厌它们的"
@@ -1095,7 +1095,7 @@
 			id: "2B9062A5F939A843"
 			tasks: [{
 				id: "1BD1E5E6271BA9E7"
-				item: "gtceu:steel_piston_housing"
+				item: "gtocore:steel_piston_housing"
 				type: "item"
 			}]
 			x: -1.0d
@@ -1129,7 +1129,7 @@
 			shape: "circle"
 			tasks: [{
 				id: "5B3450940D77BDE6"
-				item: "gtceu:steel_pump_barrel"
+				item: "gtocore:steel_pump_barrel"
 				type: "item"
 			}]
 			x: 2.0d
@@ -1193,7 +1193,7 @@
 			id: "08B4D824D2A35363"
 			tasks: [{
 				id: "58B56998A09E13EA"
-				item: "gtceu:steel_emitter_base"
+				item: "gtocore:steel_emitter_base"
 				type: "item"
 			}]
 			x: 7.0d
@@ -1255,7 +1255,7 @@
 			id: "414F8CC7E51D724F"
 			tasks: [{
 				id: "13D3DF3746C75753"
-				item: "gtceu:steel_sensor_casing"
+				item: "gtocore:steel_sensor_casing"
 				type: "item"
 			}]
 			x: 7.0d

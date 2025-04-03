@@ -438,7 +438,7 @@ hash = "91b28f0f2e01d610428adf2d5bb92ca020343a7abf6e5a489ff87089ae49edc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "9d3e8316d3b70441f73537d9f5eb50f2c51111efbd958ce00b40ed54f5ced682"
+hash = "7667eaa25593e53ce6e729bc9f03b7cad96a74e7b0420b6adbafc2a5dd14f8cc"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
@@ -538,7 +538,7 @@ hash = "4b2e80ebdbb030bda975e3c86338da77ccf70b38e272485793586bf9afe7f203"
 
 [[files]]
 file = "config/gtocore.yaml"
-hash = "216938d586b0abc35e0df12eafc8208ecb4b3f8f214785c505b3a48f3af551ba"
+hash = "798bceccf3e049482df25397899dc09aa4c83402d814b34b4b0130c9d512045c"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1283,7 +1283,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.4.jar"
-hash = "9eacdcf0a6bb0244ee2d2ee274ae24110901206abc6d85cc72b52be9b98cf89c"
+hash = "cb15c142afb780e5195483e4a2891832f085e856f2f60b46c8ff506ef8d8e1fe"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
