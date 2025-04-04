@@ -762,7 +762,7 @@
 		"TNT Like" = false
 		#Makes creepers blow up on death like when they were added back in 0.30
 		#Allowed Values: NONE, CHARGED, ALL
-		"Blow up on death" = "CHARGED"
+		"Blow up on death" = "NONE"
 		#If IguanaTweaks Reborn is installed and Explosion Overhaul is enabled, Angry creeper will deal more knockback and break more blocks and breaching creepers will break more blocks
 		"IguanaTweaks Reborn Integration" = true
 

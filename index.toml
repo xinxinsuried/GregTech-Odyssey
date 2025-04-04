@@ -326,7 +326,7 @@ hash = "4180b3139d23a32ac8a597b07a613f240a34a82c5040fbbf4d934b996ab29840"
 
 [[files]]
 file = "config/enhancedai/common.toml"
-hash = "14bdd54f23533bb961baf9c5c954031699ba9a5615493d63ec60c5a8e9bf36da"
+hash = "3a11c4905b1f4632a6241fee5387daa0230d424fc096e047b750078d62879f5a"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
@@ -538,7 +538,7 @@ hash = "4b2e80ebdbb030bda975e3c86338da77ccf70b38e272485793586bf9afe7f203"
 
 [[files]]
 file = "config/gtocore.yaml"
-hash = "798bceccf3e049482df25397899dc09aa4c83402d814b34b4b0130c9d512045c"
+hash = "216938d586b0abc35e0df12eafc8208ecb4b3f8f214785c505b3a48f3af551ba"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1199,7 +1199,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "11e2d5e712a606e7616528d995f39cc0c0c36cca3d741dfdbae650e371d7787d"
+hash = "818a604263c546dc6a3f9c2bf1a866e51466af3ebfdcf69c220757ec7487c456"
 metafile = true
 
 [[files]]
@@ -1283,7 +1283,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.4.jar"
-hash = "cb15c142afb780e5195483e4a2891832f085e856f2f60b46c8ff506ef8d8e1fe"
+hash = "0bf3a38a07c4b960ff2a1aebc6a21baa0d864f81d8beb6bd81b31099a4563664"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1427,7 +1427,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-trees-youll-grow.pw.toml"
-hash = "c3ca5b464737cd49756dbb5a57fde213dcc755a2073aebbaf10e48ecf71fb539"
+hash = "a4429f507266f43402a16806cddd8c32ba402b701960a4d49e97ca208945065e"
 metafile = true
 
 [[files]]
@@ -1527,12 +1527,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "3b0246e0ac2db773f369080a65686ebb114f79a382f244427d0bc1eebb1e82e5"
+hash = "ce5b7461610475ccbce6b9fd16c1aac18e272539947492d47047f7076327ddfa"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "5608628840983d436c2d83840e3f5d4f721020e2575304dbb1c92541f2b43968"
+hash = "26fb82567299f63a217287c18cf388d9f46930a39990e07729ebb858edc153ce"
 metafile = true
 
 [[files]]
