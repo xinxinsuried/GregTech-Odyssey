@@ -262,7 +262,7 @@ hash = "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
 
 [[files]]
 file = "config/embeddium-options.json"
-hash = "5acb2bd91303d4a5baacc1fbf61605950f83c239fdd3387f92dd3d4ab40cc706"
+hash = "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
 
 [[files]]
 file = "config/emi.css"
@@ -414,19 +414,19 @@ hash = "c03e5cca76d11c0eee3a0dea863be6fa5771568396cb1a2e838cca15344c8bfe"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/food.snbt"
-hash = "7c734d4244cd30ec33ae534109bed1d6c6a601a468df37e8c4a90825ddefefb2"
+hash = "90ef17312e54b0b410ff5a15ec732b9a13d2436ca458ccebb8ac05999f6c895e"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/fork-modernage.snbt"
-hash = "b92d152903f51996fa66c1750a4e576a1fb0884eef24c653cf09e7b981e88bc6"
+hash = "64223a512214fa4fb3b9fd4fc71ada3356e614335c7064e47cc2de570365d20b"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
-hash = "56da233241f97d8909c973cb05231d841d172e90a46def24c8e95d9625ad4ff9"
+hash = "7753e1712767404dd7c2fdb011865e0b3b88709777803378af2c92dca5aa9697"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/immersive-aircraft.snbt"
-hash = "a11a9ef26c0ca21641a3d4267224c7f0d63d391f789fbd051369b6d8de6ef3e8"
+hash = "35dece69ceffa2670dfeb4b5b91546da162db951b401024350462d5a56fc30b6"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/iv.snbt"
@@ -438,11 +438,11 @@ hash = "91b28f0f2e01d610428adf2d5bb92ca020343a7abf6e5a489ff87089ae49edc4"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/lv.snbt"
-hash = "725a7313f5b5787d711b2293bd7774695e890a57228ed85dd655f76f4d80d9c9"
+hash = "a4e4a3339a61f590f7616ed0b6d34ad8d6caf16a3ef3b2b5d58e3c06bce8c09d"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/main-stoneage.snbt"
-hash = "ce639bbe7e54abdfb441d8348f311aaafe52e080f459a7f58cff02634d705180"
+hash = "c514bef48441f53b671618b83e7d9e68d6b594ab586fa0c2c8c49fdbef90c877"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/max.snbt"
@@ -450,7 +450,7 @@ hash = "45e4896d6317e16c33e0d0132249adac6ed9b941dfa4bc9a35abf5ba7465b8c9"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/mv.snbt"
-hash = "6a21dd013748f7029d8df4c37c3b7812bdd87a1f1c3733189367c7dc96a34194"
+hash = "8f0b58aed6ea5d9174009660247d01fbaf0ba06484fab10c1a515c0670ac4918"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/opv.snbt"
@@ -458,15 +458,15 @@ hash = "e2a0fa89ced1cd0f04eb4368d227a83ff8ded13133adf1ca402e965a8f0b6bec"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ores.snbt"
-hash = "0a8c891be08b15934b8b95ff14e7cf7d89de4cfdcaa6aee8b072ff085e5d7617"
+hash = "25f17ae61887ace9dabe26b29b55abbcb9a1bc2c98371dca03763400d9633318"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/steam.snbt"
-hash = "b64d65a0d0eddab97db8f0c85631f784fdec852b4113863e01834a61b4828850"
+hash = "4b737557aef0cc4b472457d7910277b578b67c1621c5a15290d074fa3757e081"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/tips.snbt"
-hash = "a2e3be79724cb79cd17f47379a48a365576cf1269416558a95a453de591e18b3"
+hash = "9a186fdfdff43775f17411a52b9fa6ef2a194e26b2f2a63fd2a225c5e73ea400"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/uev.snbt"
@@ -498,7 +498,7 @@ hash = "952980b5acacef620c6296c2f01da7bf2a2ef516dfceb2726ad2ada15fae1923"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/wireless-energy.snbt"
-hash = "3430477da5785252eaf524336608f1c1064bf3178f90a9ee3360efc6abc83af8"
+hash = "62813126513749f25cb3957a204608e7633448eab47d760c6dcece9ba3786535"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/zpm.snbt"
@@ -538,7 +538,7 @@ hash = "4b2e80ebdbb030bda975e3c86338da77ccf70b38e272485793586bf9afe7f203"
 
 [[files]]
 file = "config/gtocore.yaml"
-hash = "216938d586b0abc35e0df12eafc8208ecb4b3f8f214785c505b3a48f3af551ba"
+hash = "798bceccf3e049482df25397899dc09aa4c83402d814b34b4b0130c9d512045c"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1282,8 +1282,8 @@ file = "mods/gtmthings-1.4.0.a.jar"
 hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
-file = "mods/gtocore-0.0.4.jar"
-hash = "7dbcbaa029df5b898e38ac9dc5a214f19a3e19d83a554094b325808513b8b6d0"
+file = "mods/gtocore-0.0.5.jar"
+hash = "55aaaef84e05b1d8402b88b2094d55cdbe2c033dec40bfd2e7335ec52e6d117d"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"

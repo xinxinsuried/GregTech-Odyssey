@@ -55,4 +55,3 @@ packwiz
 !gtmthings-*.jar
 config/flywheel-client.toml
 config/embeddium-options.json
-config/modernfix-mixins.properties
