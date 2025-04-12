@@ -248,7 +248,7 @@
 				"4678D97346E46529"
 			]
 			description: [
-				"通风板需要安装在小机器的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
+				"通风板需要安装在流体容器的任意一个侧面，在这个侧面不被阻挡的情况下可以以200mB/秒的速度抽入空气"
 				""
 				"&7可以安装在多个侧面，可并行增加抽入速度&r"
 			]
@@ -262,8 +262,8 @@
 				type: "item"
 			}]
 			title: "空气从哪来？"
-			x: 15.5d
-			y: -5.0d
+			x: 1.5d
+			y: 2.0d
 		}
 		{
 			dependencies: [
@@ -460,7 +460,6 @@
 			dependencies: [
 				"423C010EB03C96E6"
 				"7A7105B0D9CAB320"
-				"1CDBE91D2ACD9111"
 			]
 			description: [
 				"聚乙烯是唯一能在&6化学反应釜&r合成的简单有机聚合物，更高级的聚合物都需要在专门的&6聚合器&r完成反应"
@@ -546,7 +545,10 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["6E3C93AC06BB6F31"]
+			dependencies: [
+				"6E3C93AC06BB6F31"
+				"6C328AB57C610EF9"
+			]
 			description: [""]
 			icon: "gtceu:resin_circuit_board"
 			id: "134DA399427DD1A5"
@@ -928,6 +930,18 @@
 			title: "欢迎来到低压时代"
 			x: 16.5d
 			y: -7.0d
+		}
+		{
+			dependencies: ["1CDBE91D2ACD9111"]
+			description: ["离心空气获取"]
+			id: "6C328AB57C610EF9"
+			tasks: [{
+				id: "647E4C7342536EC3"
+				item: "ad_astra:oxygen_bucket"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]
