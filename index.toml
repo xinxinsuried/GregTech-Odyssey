@@ -102,7 +102,7 @@ hash = "d263933ee4b13ea18ca743e8648d0cf2bc0f69a7d8c3f0e55829d9597d8c0c62"
 
 [[files]]
 file = "config/avaritia-common.toml"
-hash = "fc14ad4d3bb496cc21c522fed78e419d2e5a2c79b8fd1f80f79b9251eeea8e9d"
+hash = "3bc028f48b4e0d72f5e5fcab8eefa20b9d00ff1ca24b6c1d389c6903b6e641a6"
 
 [[files]]
 file = "config/avaritia/singularities/spacetime.json"
@@ -1059,7 +1059,7 @@ metafile = true
 
 [[files]]
 file = "mods/curios.pw.toml"
-hash = "68960354be9294d5761b636b94e4f54715119602e83c4dd107698021dbeca16b"
+hash = "1315cd56b0b4a5b3d53374cebf4f1f3cd0546b05058740847bd226c1d1ccab39"
 metafile = true
 
 [[files]]
@@ -1223,11 +1223,6 @@ hash = "7de446c62548aa2c66ccc038400b27078f16032ef66ace9668372d4ee288005b"
 metafile = true
 
 [[files]]
-file = "mods/ftb-backups-2.pw.toml"
-hash = "539c1fe52985adb411cc2c54557cea37daa8a3d7f35283e0ac4e2c85f5b047fa"
-metafile = true
-
-[[files]]
 file = "mods/ftb-essentials.pw.toml"
 hash = "e905d52ed605a45b448f34c9d31e6370e3fba48bba30bfdda899e329b5c2927b"
 metafile = true
@@ -1278,12 +1273,16 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
+file = "mods/gtceu-1.20.1-1.7.0.jar"
+hash = "602396c48813cf348dec4c7ac36f7a419260811787be4a675308be4b6d5a3eae"
+
+[[files]]
 file = "mods/gtmthings-1.4.0.a.jar"
 hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.5.jar"
-hash = "a356bc48ba3b4935ae7709678a9d52b434c52c6ae13f6bed7ce04ba66d681e81"
+hash = "95eee012a8a02836aadb8c06dac7d7961dced2c66f37d2cf6b58688f86d510f5"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1422,7 +1421,7 @@ metafile = true
 
 [[files]]
 file = "mods/oh-the-biomes-weve-gone.pw.toml"
-hash = "fea09dbeb1a6aa91fe544b81bca287e696e01e4f49e53800ef46da93dc337f5c"
+hash = "a5ae41acb4798c6d8ffd16c8c537e452dd5a17efa6734214f6d8044c3ba52214"
 metafile = true
 
 [[files]]
@@ -1467,7 +1466,7 @@ metafile = true
 
 [[files]]
 file = "mods/pretty-rain.pw.toml"
-hash = "dc07216b7393ffdba7055eed6797e53a25c86d579c87c7ca649fdcd423e76e1e"
+hash = "9244e3ce294b09a630e6343fba1bea75c3bb3f661441a7fc7462446bd888c932"
 metafile = true
 
 [[files]]
@@ -1477,7 +1476,7 @@ metafile = true
 
 [[files]]
 file = "mods/re-avaritia.pw.toml"
-hash = "d6b5dcfe520f5e24d71c05685179cb9b2c0c5d8e06aa356ef99766814f647ff5"
+hash = "31712331ce70deec0e1c1fcbb1c9159ab9fa3dbffae336593ea4f37157f736ce"
 metafile = true
 
 [[files]]
@@ -1521,6 +1520,11 @@ hash = "e590575830dec5964abf3fadaba242581253831a38249150d9c07b083af1817b"
 metafile = true
 
 [[files]]
+file = "mods/simple-backups.pw.toml"
+hash = "7ae23612abc6bf86cc256a71972a0b7d11be7042e8f3d8cc833e73796be405d0"
+metafile = true
+
+[[files]]
 file = "mods/simply-graves.pw.toml"
 hash = "6de3c057d020d9314a3ef29d1195344da177b9d7a4fa6a680f2654c38d6f3946"
 metafile = true
@@ -1532,7 +1536,7 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "e15c05ce2327dbcb59267afae9cd30c9224df24779943f7ce46a4f95354461cc"
+hash = "cd02395c8f038a10032deef65110b2fc598c048e7091b19c70784792ddf03f8a"
 metafile = true
 
 [[files]]

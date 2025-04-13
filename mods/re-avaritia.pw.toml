@@ -1,12 +1,13 @@
 name = "Re:Avaritia[Forge/Fabric/Neoforge]"
-filename = "Re-Avaritia-forged-1.20.1-1.3.9.0-beta3.jar"
+filename = "Re-Avaritia-forged-1.20.1-1.3.9.0-beta4.jar"
 side = "both"
 
 [download]
 hash-format = "sha1"
-hash = "ba8b1a5cfb54069c3af832e94ab619dbe0bcbede"
-url = "https://edge.forgecdn.net/files/6326/152/Re-Avaritia-forged-1.20.1-1.3.9.0-beta3.jar"
+hash = "0c81712df92de21631fea2f9b065f594668fd4bc"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
-file-id = 6326152
+file-id = 6418092
 project-id = 623969

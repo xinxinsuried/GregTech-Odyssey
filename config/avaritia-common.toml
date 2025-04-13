@@ -94,3 +94,7 @@
 	#Range: 20 ~ 1200
 	"FullUpdate Rate" = 40
 
+[misc]
+	#For develop
+	"Use Advance Tooltips" = false
+
