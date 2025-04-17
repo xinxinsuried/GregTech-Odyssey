@@ -6,7 +6,7 @@ hash = "2d7dabbf3233e4d5d85413086edfa63a99ba92569677394208affc489dd9e813"
 
 [[files]]
 file = "README_zh.md"
-hash = "d0a4d52ff2fcee02ca949a237a1463ed47a55ebcc69e34f62ff8621fcaf3d3e1"
+hash = "f88e1cb58e021a8eb899da470c3eb573cd1536453190a32a8ca39d64547b9a07"
 
 [[files]]
 file = "config/CoroUtil/General.toml"
@@ -514,7 +514,7 @@ hash = "a7daa28307dc6b5aa5f334afea3fdbf72ac6f21455485c9cdeb1e717a69161e8"
 
 [[files]]
 file = "config/ftbquests/quests/data.snbt"
-hash = "8c4d52a8ba46bf1a7a536b1eed7c3962e31b90a62a0b90ac8602e415478fbb5b"
+hash = "a11aff1a93261811b760bfc571a835649ce467b79d2b86b2fce76fd3baafddab"
 
 [[files]]
 file = "config/ftbquests/quests/reward_tables/5663b9afadbde9f2.snbt"
@@ -791,10 +791,6 @@ hash = "9278e868cee8fe35e0c0bae950a26329d85580d91841b42ea1b0d04fb4d0ad2f"
 [[files]]
 file = "config/storagedrawers-common.toml"
 hash = "fc64c2ca441547fe83c78ca11d01124cec3779d17b3f607f2d06fd038163b372"
-
-[[files]]
-file = "config/tectonic.json"
-hash = "8cc0e09d587ca52bbff30ffa48d8583ad1eb3f3a81bfc58fa6837235bc3115d0"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -1284,8 +1280,8 @@ file = "mods/gtmthings-1.4.0.a.jar"
 hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
-file = "mods/gtocore-0.0.5.jar"
-hash = "b199b3e89e3d53c3cc8be233c970ecc45a2d6ff3d0b6008ced84c90bbd54b5b3"
+file = "mods/gtocore-0.0.6.jar"
+hash = "b0e60f9c536b9ac3c5737693d3eb1c07a692a855bc6ebf976c9867d216a82571"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1540,11 +1536,6 @@ metafile = true
 [[files]]
 file = "mods/spice-of-life-carrot-edition.pw.toml"
 hash = "c2eac86256a3ecd45f6706976af120e0464b135c2b39471b9d93bcd8b5426a8b"
-metafile = true
-
-[[files]]
-file = "mods/tectonic.pw.toml"
-hash = "26642a0d1038e1ba5cef539248ea4e69fdd7e7f2dcb20af3197287bfa84e3e90"
 metafile = true
 
 [[files]]
