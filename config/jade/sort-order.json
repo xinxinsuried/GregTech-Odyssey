@@ -49,6 +49,7 @@
   "gtocore:parallel_info": null,
   "gtocore:temperature_provider": null,
   "gtocore:tick_time_provider": null,
+  "gtocore:upgrade_module_provider": null,
   "gtocore:vacuum_tier_provider": null,
   "gtocore:wireless_data_hatch_provider": null,
   "gtocore:wireless_interactor_provider": null,

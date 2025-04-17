@@ -5,6 +5,10 @@ file = "CustomSkinLoader/CustomSkinLoader.json"
 hash = "2d7dabbf3233e4d5d85413086edfa63a99ba92569677394208affc489dd9e813"
 
 [[files]]
+file = "README_zh.md"
+hash = "d0a4d52ff2fcee02ca949a237a1463ed47a55ebcc69e34f62ff8621fcaf3d3e1"
+
+[[files]]
 file = "config/CoroUtil/General.toml"
 hash = "47c35d723f99caad8d417ced211526fab23b7fa459784826457dcff5f01d378b"
 
@@ -409,6 +413,10 @@ file = "config/ftbquests/quests/chapters/ae.snbt"
 hash = "de7291bb92cf3367fd86ba6a44bf8667d3941bcb28dec0ef541ac6e71a22dd9e"
 
 [[files]]
+file = "config/ftbquests/quests/chapters/chemical.snbt"
+hash = "8c8b7efd71d6b503436c762cfe2df0d866802f8e1fb24eccfea76594066b3ae6"
+
+[[files]]
 file = "config/ftbquests/quests/chapters/ev.snbt"
 hash = "c03e5cca76d11c0eee3a0dea863be6fa5771568396cb1a2e838cca15344c8bfe"
 
@@ -482,7 +490,7 @@ hash = "b6f3bbc982dcb6b7275fd675a00d99393044937bc62dc93e8b6c958a20f988a7"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/ulv.snbt"
-hash = "f9d70b649a859a2aa5b7caf61c371d814da4b4684e61d22082626f5421a55593"
+hash = "3c598e307fb103035eb787cd7c6ec96ba0ffde700add1c436857e3223ce26414"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/util.snbt"
@@ -538,7 +546,7 @@ hash = "4b2e80ebdbb030bda975e3c86338da77ccf70b38e272485793586bf9afe7f203"
 
 [[files]]
 file = "config/gtocore.yaml"
-hash = "216938d586b0abc35e0df12eafc8208ecb4b3f8f214785c505b3a48f3af551ba"
+hash = "976dafbc4599468b95c0117cff15648e08a47f493215c98b02394d667c10d007"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -570,11 +578,11 @@ hash = "1085729634eb065ebd749213a52442535405551c254711c99616142052d0852b"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "2633fbfcba2165edbc327ce16b19e80852499870e28e9a08d3fadf2f840d6402"
+hash = "c9499429220d4f3451a4420be17820a07da1b9f4790f1af7f40b35ec976d3601"
 
 [[files]]
 file = "config/jade/sort-order.json"
-hash = "9f5007abe2d9398c18624f3bcbb2f235c6c5f16aff93a806dda225199e584257"
+hash = "4f3b63df91a9d5b6ef6dfc9e64be2bb01e3fe162538fb3e1af633b85b42a7d62"
 
 [[files]]
 file = "config/jecalculation/config.toml"
@@ -710,7 +718,7 @@ hash = "4d236f983cd17480fba9b79ca8374fbbe9885d05d33a1919bfeffe67374311f7"
 
 [[files]]
 file = "config/patchouli-client.toml"
-hash = "3b6236845f6a5ff8804487b63b0d74305b91316dc9a008362838607b0be3bd8e"
+hash = "937182b2813e129f5d05ae313d5321069eebd0350151b254e74b1560ed3d764d"
 
 [[files]]
 file = "config/ponder-client.toml"
@@ -903,7 +911,7 @@ metafile = true
 
 [[files]]
 file = "mods/apotheosis.pw.toml"
-hash = "0d8bef90c02e574abf6100c9fb17295185fcd1271e989f1f32291913392f4df1"
+hash = "a18e377ea27f44fae53686b8875b858770e8a279da7eaf523fa498a09ffad8a5"
 metafile = true
 
 [[files]]
@@ -1103,7 +1111,7 @@ metafile = true
 
 [[files]]
 file = "mods/emi.pw.toml"
-hash = "b0255e234468055440b05f2160e41f8cd75f61f91942f9d91549654f98899911"
+hash = "d48a1ea93de8cd5febb95ba52989d8d9ab4e998cfbdf9c1076a9f2e571d2fcbe"
 metafile = true
 
 [[files]]
@@ -1198,7 +1206,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "818a604263c546dc6a3f9c2bf1a866e51466af3ebfdcf69c220757ec7487c456"
+hash = "da2e030b7aa8588b2f634bbd1d834861e21fe3793f5f58cf3073e45bba1f4b30"
 metafile = true
 
 [[files]]
@@ -1233,7 +1241,7 @@ metafile = true
 
 [[files]]
 file = "mods/ftb-quests-forge.pw.toml"
-hash = "852101c891369605c97f098cdc01599a96cc5e795151580230590a9be5a2906d"
+hash = "2ec083ed1872a8886a63c8f112958fdda1cf802d01c90400272e0d95a82c976d"
 metafile = true
 
 [[files]]
@@ -1277,7 +1285,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.5.jar"
-hash = "8310c846d7f79350b9251b24aee354c6e295b9304e5b30e74c1061c81ea3371a"
+hash = "b199b3e89e3d53c3cc8be233c970ecc45a2d6ff3d0b6008ced84c90bbd54b5b3"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1521,12 +1529,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "1e09564045d3ba4a1306793b4a910f2555c06eff1d043224bbf6118e1408d81d"
+hash = "ae0d219d3860f5b6339a2932afc5ef161052254d4be15bb1448ea3efe20c68c2"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "cd02395c8f038a10032deef65110b2fc598c048e7091b19c70784792ddf03f8a"
+hash = "66e660c470b68d9fb90fba53520ab580c66767aecb37f453b0c1be473c802f82"
 metafile = true
 
 [[files]]

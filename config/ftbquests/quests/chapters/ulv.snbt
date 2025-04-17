@@ -400,8 +400,6 @@
 		{
 			dependencies: ["1CA6E1AD1909373A"]
 			description: [
-				"第一个可以使用的电力多方块机器"
-				""
 				"通电后自动刷新神化BOSS，推荐搭建一个牢房"
 				""
 				"作为获取&5玄奥沙&r和&6神铸珍珠&r的唯一来源"
@@ -1042,6 +1040,19 @@
 			}]
 			x: 0.5d
 			y: 2.5d
+		}
+		{
+			dependencies: ["1CA6E1AD1909373A"]
+			description: ["升级模块右键消耗玩家全部的经验，然后附加属性（确保玩家有10级以上的经验），可以右键机器（部分多方块）来升级，升级效果为永久加成，可覆盖升级。"]
+			id: "389D61CE9E799725"
+			shape: "diamond"
+			tasks: [{
+				id: "08323F83E5FE05AE"
+				item: "gtocore:rarity_forge"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 1.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

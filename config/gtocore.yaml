@@ -40,3 +40,6 @@ recipeCheck: false
 # Dev Mode
 dev: false
 
+# When disabled, the emi favorites in different saves will be independent from each other
+emiGlobalFavorites: true
+
