@@ -25,8 +25,9 @@
 /config/embeddium-fingerprint.json
 /config/oculus.properties
 /config/xaerominimap_entities.json
+/config/gtocore.yaml
 /config/spark/
-/config/fabric
+/config/fabric/=
 /mods/.index/
 /mods/*.jar
 /gtceu/
