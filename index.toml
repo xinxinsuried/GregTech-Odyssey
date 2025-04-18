@@ -1269,7 +1269,7 @@ hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
 
 [[files]]
 file = "mods/gtocore-0.0.6.jar"
-hash = "b0e60f9c536b9ac3c5737693d3eb1c07a692a855bc6ebf976c9867d216a82571"
+hash = "6ad98b1c23b00c37caa5bcafc2ce1e419fcf90d59cd00e974dccfa6aed38bdd7"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1513,12 +1513,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "ae0d219d3860f5b6339a2932afc5ef161052254d4be15bb1448ea3efe20c68c2"
+hash = "d03b81a12dd6fa5c46d7b51c22b4f1d51f5f5c48e57c9c8c53930b9a18d71f36"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "66e660c470b68d9fb90fba53520ab580c66767aecb37f453b0c1be473c802f82"
+hash = "b5023fb8ff2fee37fee75ad44912888c176ef99c8b0039af41db43ecceeeac6e"
 metafile = true
 
 [[files]]
