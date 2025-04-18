@@ -388,7 +388,7 @@
 	#Makes mobs be able to move in more ways, like climbing or swim. Only mobs in the enhancedai:allow_climbing entity type tag are allowed to climb.
 	"Enable Movement" = true
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
-	"Enable Item Disruption" = true
+	"Enable Item Disruption" = false
 	#Makes mobs ride other mobs
 	"Enable Riding" = true
 	#Mobs can flee or attack Wardens. Use the entity type tag enhancedai:ignore_warden_interaction to blacklist mobs.
@@ -399,7 +399,7 @@
 	"Enable Biting Mobs" = true
 	"Enable Spawning" = true
 	#Mobs can mine blocks to reach the target. Uses offhand item to mine. Only mobs in the entity type tag enhancedai:can_be_miner can spawn with the ability to mine and blocks in the tag enhancedai:miner_block_blacklist cannot be mined.
-	"Enable Miner Mobs" = true
+	"Enable Miner Mobs" = false
 	#Use enhancedai:can_open_doors to add more mobs that can open doors.
 	"Enable Open Doors" = true
 	#Make mobs angry when a block is broken. Check the mod's config folder Mobs/Break Anger/break_anger_config.json to change blocks and entities triggered.
@@ -462,7 +462,7 @@
 		"Equip Fishing Rod Chance" = 0.07
 		#Chance for a fisher mob to steal an entity item in the hands instead of reeling the player.
 		#Range: 0.0 ~ 1.0
-		"Hook Hands Chance" = 0.4
+		"Hook Hands Chance" = 0.0
 
 		#How fast will a mob reel in the grappled entity (or if the hook is on the ground).
 		[Mobs."Fisher Mobs"."Reel in ticks"]
@@ -752,7 +752,7 @@
 		"Walking Fuse Speed Modifier" = -0.5
 		#Percentage chance for a Creeper to ignore walls while targeting a player. This means that a creeper will be able to explode if it's in the correct range from a player even if there's a wall between.
 		#Range: 0.0 ~ 1.0
-		"Ignore Walls Chance" = 0.65
+		"Ignore Walls Chance" = 0.0
 		#Beta creepers when exploding will walk around the target, like the creepers in pre-1.2.
 		#Range: 0.0 ~ 1.0
 		"Beta Creeper Chance" = 0.35
@@ -782,7 +782,7 @@
 		[Creepers."Creeper Swell".Breach]
 			#Breaching creepers will try to open a hole in the wall to let mobs in.
 			#Range: 0.0 ~ 1.0
-			Chance = 0.075
+			Chance = 0.0
 			#How far away (horizontally) from the target breaching creepers can breach.
 			#Range: > 0
 			"Horizontal Range" = 24
@@ -801,7 +801,7 @@
 			#When ignited, Angry Creeper will not stop swelling
 			"Force Explosion" = false
 			#Makes angry creepers blow up on death like when they were added back in 0.30
-			"Explode on death" = true
+			"Explode on death" = false
 			#If true, Angry Creeper explosion will generate fire
 			"Generates fire" = false
 			#Explosion power of Angry Creeper
@@ -885,7 +885,7 @@
 	#Make animals fight back or be scared by players. Use the entity type tag enhancedai:can_be_neutral, enhancedai:can_be_hostile, and enhancedai:can_be_scared_by_players to add/remove animals.
 	"Enable Animals Scared Attack" = true
 	#Makes animals not tempted by food. Use the entity type tag enhancedai:can_ignore_food_temptation to change animals.
-	"Enable Not Tempted Animals" = true
+	"Enable Not Tempted Animals" = false
 	#Make animals flee/fight back when one is attacked
 	"Enable Animals Group Flee" = true
 
