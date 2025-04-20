@@ -322,7 +322,7 @@ hash = "4180b3139d23a32ac8a597b07a613f240a34a82c5040fbbf4d934b996ab29840"
 
 [[files]]
 file = "config/enhancedai/common.toml"
-hash = "3a11c4905b1f4632a6241fee5387daa0230d424fc096e047b750078d62879f5a"
+hash = "34449129a21b657ebc8f2b6f19dbf8e6d4bd1c194c0368f6a74324316754cf02"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
@@ -533,8 +533,8 @@ file = "config/gtceu.yaml"
 hash = "4b2e80ebdbb030bda975e3c86338da77ccf70b38e272485793586bf9afe7f203"
 
 [[files]]
-file = "config/gtocore.yaml"
-hash = "976dafbc4599468b95c0117cff15648e08a47f493215c98b02394d667c10d007"
+file = "config/gtmthings.yaml"
+hash = "8e852306d8e95f0dd349ee876b44722ad9ac49a047dcc63608cf69f851d07648"
 
 [[files]]
 file = "config/immediatelyfast.json"
@@ -1264,12 +1264,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtmthings-1.4.0.a.jar"
-hash = "74bbe7e2192e71fb57f6490b45d0f934fa9ff8d0859193a3a4c7a6b88b5f5a1e"
+file = "mods/gtmthings-1.4.2.a.jar"
+hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
 
 [[files]]
 file = "mods/gtocore-0.0.6.jar"
-hash = "6ad98b1c23b00c37caa5bcafc2ce1e419fcf90d59cd00e974dccfa6aed38bdd7"
+hash = "49c151daf09102503f292c413efd16f057c935185178e2f790e73db011bb60df"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
