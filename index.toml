@@ -249,6 +249,10 @@ file = "config/doespotatotick-common.toml"
 hash = "63a92e997609d4d8b02592fc70c30df9cb4cda487ecdc8e6b1546b3b04db884a"
 
 [[files]]
+file = "config/dungeon_crawl.toml"
+hash = "c4d0239ad90e1d08eb9020127d633bb01680f4581eb521a247707c58ae1aea9d"
+
+[[files]]
 file = "config/effortlessbuilding-client.toml"
 hash = "7786c6ff820526b225b98a541e3902e5e8c07b7e9e719003e742ec8528810d8a"
 
@@ -367,6 +371,10 @@ hash = "4d26b4c93838e3e912a8e09f9be0395cd0b7a264f250ea8aa72d68507ce12250"
 [[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "e3ca99e0f233e3bcf8b6762a85b1139f716bf96644318fe9cb022c270461b287"
+
+[[files]]
+file = "config/findme.json"
+hash = "4e0913a2fef137b2ba6345a2ce3e6104fb0872efe194c5eb7cbb75782b933fc6"
 
 [[files]]
 file = "config/fml.toml"
@@ -1079,6 +1087,11 @@ hash = "033912abf91ad186e600822653759d3d45311484734f36900b59abe873707f64"
 metafile = true
 
 [[files]]
+file = "mods/dungeon-crawl.pw.toml"
+hash = "3a4845166040ce2be2967b33371140b809b8d49889ba99f91da78e0228cd6f8e"
+metafile = true
+
+[[files]]
 file = "mods/effortless-building.pw.toml"
 hash = "35f8d958d7d2a3680acf27ba9fefe260e238d65ba5b46e9b7e4d9687d6e59589"
 metafile = true
@@ -1184,6 +1197,11 @@ hash = "8b041cd021d902d193ae2a3da1e102f88b36bae151983b1af2d8c9e1f7ad5077"
 metafile = true
 
 [[files]]
+file = "mods/findme.pw.toml"
+hash = "c6a2d9b3f0a172663eb91a650de90332cf7adf41662c01a9d3ad581d66e32ada"
+metafile = true
+
+[[files]]
 file = "mods/fix-experience-bug.pw.toml"
 hash = "debd96e28aa70e3cd10f651652489a1ae8c37239b69efc47d8a052b7fba71b79"
 metafile = true
@@ -1269,7 +1287,7 @@ hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
 
 [[files]]
 file = "mods/gtocore-0.0.6.jar"
-hash = "49c151daf09102503f292c413efd16f057c935185178e2f790e73db011bb60df"
+hash = "1e518614efa1178d4dff63a2bf852adf681badf7cbf1c0b79047acca8322e2e2"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
