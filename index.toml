@@ -162,7 +162,7 @@ hash = "f30375505d2b59c55c43f5157f53c97251c1ad40aa64dd210a38b80c9cdd7d0b"
 
 [[files]]
 file = "config/chloride-client.json"
-hash = "58c39af35e503e5ae469f56153e6c77aed7dadc8a8f1f58cb47d2ea8666914b7"
+hash = "876f62571ceb1313eb79fd7f0de14cc19c9bd36c074ac7c52f92a1fd8f11dc0e"
 
 [[files]]
 file = "config/clienttweaks-common.toml"
@@ -423,6 +423,10 @@ hash = "90ef17312e54b0b410ff5a15ec732b9a13d2436ca458ccebb8ac05999f6c895e"
 [[files]]
 file = "config/ftbquests/quests/chapters/fork-modernage.snbt"
 hash = "64223a512214fa4fb3b9fd4fc71ada3356e614335c7064e47cc2de570365d20b"
+
+[[files]]
+file = "config/ftbquests/quests/chapters/generator.snbt"
+hash = "9498f67ef3480c44906284486d746ef156b75a0949de22c41cbf041d7cabf916"
 
 [[files]]
 file = "config/ftbquests/quests/chapters/hv.snbt"
@@ -993,7 +997,7 @@ metafile = true
 
 [[files]]
 file = "mods/chloride-mod.pw.toml"
-hash = "7f6d7abe24c06c193599342cb5573493caee0da018a139b7e2e942833c0d28b9"
+hash = "94df0c27cfd49532ada9b9d62777f300d480d563e57a874e413d6c21fdd6a9c0"
 metafile = true
 
 [[files]]
@@ -1208,7 +1212,7 @@ metafile = true
 
 [[files]]
 file = "mods/flerovium.pw.toml"
-hash = "da2e030b7aa8588b2f634bbd1d834861e21fe3793f5f58cf3073e45bba1f4b30"
+hash = "860eb2c0dfbbfafe80f4e8b2a3341399c5d4bfbe233d3c868673fa838b86c053"
 metafile = true
 
 [[files]]
@@ -1287,7 +1291,7 @@ hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
 
 [[files]]
 file = "mods/gtocore-0.0.6.jar"
-hash = "1e518614efa1178d4dff63a2bf852adf681badf7cbf1c0b79047acca8322e2e2"
+hash = "f7b711c13105d2226f9986e2c966e2de5a76a9e7569bcf5cca196e0caeb67bb5"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
