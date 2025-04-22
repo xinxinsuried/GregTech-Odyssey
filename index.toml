@@ -645,10 +645,6 @@ file = "config/lithium.properties"
 hash = "e9f075db4db5be82c2bbc233219b17dd7cefa4309fb368a2ec48de6f190f382c"
 
 [[files]]
-file = "config/logbegone.toml"
-hash = "941d0656bb84b7f281293e5eb734ea10c2521d7757862d9735bfc902b423dae2"
-
-[[files]]
 file = "config/mae2-common.toml"
 hash = "ff36b268bc1d0fdf911c5179c286a52b1751528caefeacfb81c369d6d396a2c3"
 
@@ -1036,6 +1032,11 @@ hash = "e71002f24cc8c192486d801290b89e03a5c7948744dc72aa07e5b5bb3e096d02"
 metafile = true
 
 [[files]]
+file = "mods/corpse.pw.toml"
+hash = "cecf861a5103ad5d9509a3b3b74d395640ca8a5f453839b73ab9be5d3dd3ad2a"
+metafile = true
+
+[[files]]
 file = "mods/cosmetic-armor-reworked.pw.toml"
 hash = "d08fd987ef286e74a4666cc5359c3adfdd6f86335ae321251997419bd920f93d"
 metafile = true
@@ -1291,7 +1292,7 @@ hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
 
 [[files]]
 file = "mods/gtocore-0.0.6.jar"
-hash = "f7b711c13105d2226f9986e2c966e2de5a76a9e7569bcf5cca196e0caeb67bb5"
+hash = "80f182668bd902885c37074d3dd5020cfaea1be258c6a0ca2268e673fa69f6f4"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
@@ -1351,11 +1352,6 @@ metafile = true
 [[files]]
 file = "mods/libx.pw.toml"
 hash = "47920e8acfee11346d53419c38ad5101ac519eaf466b887defd7767efd70d215"
-metafile = true
-
-[[files]]
-file = "mods/log-begone.pw.toml"
-hash = "22b14755ca6bbeeddbf2b15a1f0000feb61fbac608a73f656de0d0d192d2056b"
 metafile = true
 
 [[files]]
@@ -1526,11 +1522,6 @@ metafile = true
 [[files]]
 file = "mods/simple-backups.pw.toml"
 hash = "7ae23612abc6bf86cc256a71972a0b7d11be7042e8f3d8cc833e73796be405d0"
-metafile = true
-
-[[files]]
-file = "mods/simply-graves.pw.toml"
-hash = "6de3c057d020d9314a3ef29d1195344da177b9d7a4fa6a680f2654c38d6f3946"
 metafile = true
 
 [[files]]
