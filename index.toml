@@ -222,7 +222,7 @@ hash = "9424ceb580ec8f3f074ebcc0618bfceebb62bb44d64750c7df5964fc7713964c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "779e4d3c8ace5876a840e070064b5e1147d43fc657bf1648d7374f1d9a2744f2"
+hash = "9e6c493615d2f27eeb5a16ae4cc11d733c58de474fcbcb544cd140adceb4fc9f"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -251,6 +251,10 @@ hash = "63a92e997609d4d8b02592fc70c30df9cb4cda487ecdc8e6b1546b3b04db884a"
 [[files]]
 file = "config/dungeon_crawl.toml"
 hash = "c4d0239ad90e1d08eb9020127d633bb01680f4581eb521a247707c58ae1aea9d"
+
+[[files]]
+file = "config/easy_villagers-client.toml"
+hash = "ad9dd91707cff2cace17bc6cdde229e8cc98488016d18078d95bc33f01610568"
 
 [[files]]
 file = "config/effortlessbuilding-client.toml"
@@ -541,6 +545,14 @@ file = "config/ftbxmodcompat.snbt"
 hash = "774631c740366a8dfef9c646d5f60a9939299f3627180ab9ac4d540c76af4081"
 
 [[files]]
+file = "config/functionalstorage/functionalstorage-client.toml"
+hash = "f9bdd4e54a0e742d3975d866d8888c5b2c4f6e7a6c47c3fe36d2937cf5d4117f"
+
+[[files]]
+file = "config/functionalstorage/functionalstorage-common.toml"
+hash = "755f6ce544a914b7c01a5ccfafc2cd4928635317b8af3fc500f5b610a8a5f703"
+
+[[files]]
 file = "config/gtceu.yaml"
 hash = "4b2e80ebdbb030bda975e3c86338da77ccf70b38e272485793586bf9afe7f203"
 
@@ -562,7 +574,7 @@ hash = "0cc7659d806fc27dc7156bedfe66f284a305ca8dfea9f7a3c6410b5e3cff5e61"
 
 [[files]]
 file = "config/invtweaks-client.toml"
-hash = "6975628abd5fcdbde6becdbdd941a39bf3ca83df0a8b5082141472631858ca9d"
+hash = "a5d4f26a323950c2bdf763f269d058579a3a7c41c50aa3fa4c612aff43b84117"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -761,10 +773,6 @@ file = "config/simplebackups-common.toml"
 hash = "a595caaf8ef7439608a3a1bc0b483e176c221511364fa0c11d1afa5108ead394"
 
 [[files]]
-file = "config/simplygraves-common.toml"
-hash = "d690ba4e92219ca9b9c5171add4726a29708901ad78144aa0bf2213286daa87e"
-
-[[files]]
 file = "config/solcarrot-client.toml"
 hash = "90b11bf7fe7bbf30c05728f2d4bdc51d49138c30359feb6261c6e7f5f04245ee"
 
@@ -791,6 +799,14 @@ hash = "fc64c2ca441547fe83c78ca11d01124cec3779d17b3f607f2d06fd038163b372"
 [[files]]
 file = "config/terrablender.toml"
 hash = "c73292a81a8409d74edb12b0bb9226bda03f39e11afc8abfe6bff52cc30ef480"
+
+[[files]]
+file = "config/titanium/titanium-tags.toml"
+hash = "f339b9138e17aea2a55a703b8e1bd4a87ae368053299b3ee55c03b7350f7b588"
+
+[[files]]
+file = "config/titanium/titanium.toml"
+hash = "cc5ac1d08117b2d79287b4089b941e7b157836446e6f82cc30560d8f6fe927bf"
 
 [[files]]
 file = "config/toolbelt-client.toml"
@@ -1297,12 +1313,16 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
+file = "mods/gtceu-1.20.1-1.7.0-SNAPSHOT-20250424-073554-c74beb4.jar"
+hash = "a0bdeac3f432f690d2418587f776d850ffa936e05c7ba04ceef82a761a3f0b0d"
+
+[[files]]
 file = "mods/gtmthings-1.4.2.a.jar"
 hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
 
 [[files]]
 file = "mods/gtocore-0.0.6.jar"
-hash = "80f182668bd902885c37074d3dd5020cfaea1be258c6a0ca2268e673fa69f6f4"
+hash = "3be8a3abe32abe1b0e204118e32cf8c9dcdf2f34c79e9b55b6a9a354035a8c4d"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
