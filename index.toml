@@ -1097,6 +1097,11 @@ hash = "3a4845166040ce2be2967b33371140b809b8d49889ba99f91da78e0228cd6f8e"
 metafile = true
 
 [[files]]
+file = "mods/easy-villagers.pw.toml"
+hash = "9f9d2f8a99a2599ab346e2b3d2a6a70ffa5b1a41dd36f59bad5f14ee96f0e6fd"
+metafile = true
+
+[[files]]
 file = "mods/effortless-building.pw.toml"
 hash = "35f8d958d7d2a3680acf27ba9fefe260e238d65ba5b46e9b7e4d9687d6e59589"
 metafile = true
@@ -1264,6 +1269,11 @@ metafile = true
 [[files]]
 file = "mods/ftb-xmod-compat.pw.toml"
 hash = "39e65bf3c47517cdb2f9b4b49c6632dd56db797744faaf8b1a3726b1b95aacb4"
+metafile = true
+
+[[files]]
+file = "mods/functional-storage.pw.toml"
+hash = "3de7e29cd28529757e0a09db7466b7d50b791ba4235de2f125a86921a5c60ea7"
 metafile = true
 
 [[files]]
@@ -1526,12 +1536,12 @@ metafile = true
 
 [[files]]
 file = "mods/sophisticated-backpacks.pw.toml"
-hash = "d03b81a12dd6fa5c46d7b51c22b4f1d51f5f5c48e57c9c8c53930b9a18d71f36"
+hash = "d36e105a94e3e8263f36e856521d0c484b59c01449695ca3153d936818549680"
 metafile = true
 
 [[files]]
 file = "mods/sophisticated-core.pw.toml"
-hash = "47f3f31415d8745f920cf88b4970e295aaa60a33ed812ae0481a392d6abb42c2"
+hash = "cf4aabd2ddd1d3d71fdcc51c5d20abb19f9f210ac262555d4d0efa3d6d52f8bc"
 metafile = true
 
 [[files]]
@@ -1547,6 +1557,11 @@ metafile = true
 [[files]]
 file = "mods/terrablenderfix.pw.toml"
 hash = "decd4bdf5fcea790dfe75bf35184bc2100361849487aa73996d6576c1e9a0143"
+metafile = true
+
+[[files]]
+file = "mods/titanium.pw.toml"
+hash = "5e41fd8f565e09e83868e4c4776154befd3203b01ed5f09b6f7cd27687ec0041"
 metafile = true
 
 [[files]]
