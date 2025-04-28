@@ -320,8 +320,8 @@
 				type: "item"
 			}]
 			title: "原始人的打包办法"
-			x: 16.5d
-			y: -10.0d
+			x: 4.5d
+			y: -7.0d
 		}
 		{
 			dependencies: [
@@ -371,11 +371,14 @@
 				type: "item"
 			}]
 			title: "低压线缆"
-			x: 16.5d
-			y: -8.5d
+			x: 4.5d
+			y: -5.0d
 		}
 		{
-			dependencies: ["201D44A832961946"]
+			dependencies: [
+				"201D44A832961946"
+				"4C1AA691B0A8EC24"
+			]
 			description: [
 				"更强的锅炉，但是燃料消耗很快"
 				""
@@ -1005,10 +1008,7 @@
 			y: 2.5d
 		}
 		{
-			dependencies: [
-				"03BB5A5C084F5194"
-				"4C1AA691B0A8EC24"
-			]
+			dependencies: ["03BB5A5C084F5194"]
 			icon: "gtceu:lv_machine_hull"
 			id: "507807175748245C"
 			rewards: [{
@@ -1053,6 +1053,19 @@
 			}]
 			x: -3.0d
 			y: 1.0d
+		}
+		{
+			dependencies: ["2EE92A46E52B0565"]
+			description: ["比压缩效率更高"]
+			id: "3BE44DC31F4047B9"
+			shape: "hexagon"
+			tasks: [{
+				id: "6A1D6F5F4BCE7F49"
+				item: "gtocore:ulv_loom"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.0d
 		}
 	]
 	subtitle: ["Tier0.5-ULV"]

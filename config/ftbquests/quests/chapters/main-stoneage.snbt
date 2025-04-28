@@ -1879,6 +1879,25 @@
 			x: 6.5d
 			y: 12.0d
 		}
+		{
+			dependencies: ["67264EF0565CC030"]
+			description: ["销毁你的垃圾"]
+			id: "36ABEC62B0F6C71D"
+			tasks: [
+				{
+					id: "5F095539B1E545E4"
+					item: "terrific_trash_cans:fluid_trash_can"
+					type: "item"
+				}
+				{
+					id: "41110CE5D7A6642D"
+					item: "terrific_trash_cans:item_trash_can"
+					type: "item"
+				}
+			]
+			x: 12.5d
+			y: 4.0d
+		}
 	]
 	subtitle: ["Hello World!"]
 	title: "由此开始"
