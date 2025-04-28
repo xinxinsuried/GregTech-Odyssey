@@ -1674,16 +1674,12 @@ hash = "477c0165ac7a3d521157a8fa69fd5335804383fc04459e0ee7a2ce799a08c568"
 metafile = true
 
 [[files]]
-file = "mods/gtceu-1.20.1-1.7.0-SNAPSHOT-20250427-105417-fc4f444.jar"
-hash = "50b53613025f21d2673ed3f1394a4e70a0a629f969c82fcdb7ca2fc1d268b082"
-
-[[files]]
-file = "mods/gtmthings-1.4.2.a.jar"
-hash = "0b390af081d013f3b3c5916254a144ae636351381385ca1efdfb9dcc06a9c9e9"
+file = "mods/gtmthings-1.4.4.jar"
+hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
 
 [[files]]
 file = "mods/gtocore-0.0.8.jar"
-hash = "4a5655dad5d01c03b491b334e27bdfb8882dc0606eb63a5cc9fcb9fc612306df"
+hash = "e99c49e8fe427b670ddf75e4f09c4c61b7e009191a4e69bb6a3f07d322317e4c"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
