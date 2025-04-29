@@ -741,6 +741,130 @@ file = "config/ftbbackups2.json"
 hash = "7e88163a0edc7f75f7b0d79bc700f262cb80d6bf522f1dc150369069e54805da"
 
 [[files]]
+file = "config/ftbquests/localized_quests/chapters/ae.snbt"
+hash = "e06ae79ef4712ab7996f81d48528eb4547c8d2bf42a2a8e591ecb25ec946e729"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/chemical.snbt"
+hash = "4bee69e081f543a0332c4e626f6ab5db218ce96fd6f43b9c0a0cd06e8494d407"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/energy-producing.snbt"
+hash = "ea3b1bd71d97c95ef060fd19098ea99babd095b64c544c2fe9daecf858711583"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/ev.snbt"
+hash = "56bb5ec65bfa08b5a117f6f5af131e87dfbc9392ef87a51233bfd545b8e93a2c"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/food.snbt"
+hash = "b6094d139006b758f47b986e24988d6049e94c196e3b7af585a767c48ab5c01c"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/fork-modernage.snbt"
+hash = "6a6cd33e2a559242cae59600bbd5f65187ee2642415f39efc103d72e92a55bf4"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/generator.snbt"
+hash = "f34f89780b93189ee3155cb233a4d07cc0ece8fd148b4da9d92f556c3621440c"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/hi-end-manufaturing.snbt"
+hash = "72b0541b5eabd757d549fea00a28d1de10d30736655e7514275a724e5be7ecd7"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/hv.snbt"
+hash = "0071eb824af20a0c3ce3aafc865381f634e305b49502db41dcea8a1fd465666c"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/immersive-aircraft.snbt"
+hash = "b5be5d9973cc925323966c5a052a88ddb97416afcfb2e02b0286e8ca7d3d6fc9"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/iv.snbt"
+hash = "951773aa2645bb34050fc6988a0181bb233530a0c92bf00a7587d55fb26681ad"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/luv.snbt"
+hash = "6f12b0e30a1d390335fefdd99fe86a135a5a20873ec89327828e6a19f1cba199"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/lv.snbt"
+hash = "a7db252b2a7c5fcc59d9dd81eb3cd9bdcc3590c20a126a3d6f818f1452dca1a5"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/main-stoneage.snbt"
+hash = "602ed3a3f0b57d060b1b162e031376e19fa44b04ce60ad1c505329a4120679f3"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/massive-manufacturing.snbt"
+hash = "91fb6bcce022c1fb2c1097d19320efbe48da9fe08611ce11ec5a0b7c902ecb34"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/max.snbt"
+hash = "36f38d5b8abb5c5fe61f7fc64e44135d1168f818f4b18e2b6f926c6191caa9fe"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/mv.snbt"
+hash = "53360565c64562a3e3c904f55b0c536fdbb23f93832fa014dcd402c00ebaa485"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/opv.snbt"
+hash = "a39f8c5b1f3e67083f0edda3fd49533fa2277daf053a2ca3b890432c27119b5e"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/ore-processing.snbt"
+hash = "8adf7b78593efbf9c53c7a69f0e69c465df90b730b51c4d18edef747829b9f24"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/ores.snbt"
+hash = "91e87ac106aae13941f7df960d84e9c71ad910539300505979291bc55be2178b"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/steam.snbt"
+hash = "17fdac417dc94524b52ce7fe9a243d1bf4daacb2589c078531537619e332a69d"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/tips.snbt"
+hash = "8c39806c640ee47be9c9b5940c663822ec394c5f760bc1fefbde8d9a68e0ee08"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/uev.snbt"
+hash = "d095ada750edbde575f5ae8551b92be4ed8843005a37dbcb624ba6aafd0deade"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/uhv.snbt"
+hash = "72f46e189110d10d0430491874d19e57a74d59ae64cf8bafa84b0a6101d8b664"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/uiv.snbt"
+hash = "25b5020dbfb166632138e97124fad3a2534104934b17dad94ac607da9860eab1"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/ulv.snbt"
+hash = "d9a69f874276b7cc90b5bdd7d42aec73b2d767c336260dfb0ebb53fc7e82ce72"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/util.snbt"
+hash = "1ecce15701da585b726836a50a47e8897240d55d76c3f85f3a3df656659b5b1f"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/uv.snbt"
+hash = "29e2210f386c81a2ef38a933f29bb2c848f38143a5c08c12f622ba6cabb945df"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/uxv.snbt"
+hash = "d2c44b0f93c8682b47bc8a58edde95e937d7b20a082bb41b9703224f2e4758f5"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/wireless-energy.snbt"
+hash = "560263a5bb0d03ebcf3efad6afe39ee9443a1fd001718ef9aa072e9af9e4c165"
+
+[[files]]
+file = "config/ftbquests/localized_quests/chapters/zpm.snbt"
+hash = "3af9944c470c64b36926be26b25cdca0f8e52866b4ff6721eeebbc8f7dd0b87c"
+
+[[files]]
 file = "config/ftbquests/quests/chapter_groups.snbt"
 hash = "0f889a163f78dffca6bcd6438f54e23746e912e15eea47dafdbd4075a1cbd74d"
 
@@ -1075,6 +1199,14 @@ hash = "d08c3a750d2f50f0d6e66217e92bbbecc102ad91f66b8a263e48d1b6388bba3e"
 [[files]]
 file = "config/openloader/data/data.zip"
 hash = "f607f2d2250512b9231fc7792efd091818f96645a7944de61cc1ef0ce64cb62f"
+
+[[files]]
+file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
+hash = "811924440c298b3f0122f53e0b10d8c41ea417739a48e0b2f550a9aff0e15c6d"
+
+[[files]]
+file = "config/openloader/resources/quests/pack.mcmeta"
+hash = "74f2d797b0fbd6405998031cd10c30193f4b53bb3ad96d2aa9b31ad5ded26191"
 
 [[files]]
 file = "config/openloader/resources/resources.zip"
@@ -1679,7 +1811,7 @@ hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
 
 [[files]]
 file = "mods/gtocore-0.0.9.jar"
-hash = "02823532d9374dabfb29aa9d87444433a16d89a0d4df46cf0830be6d4c751fcc"
+hash = "08315a6972dfcccdfa57c116327ea47ea60b14644de992651935fe2b74820d14"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
