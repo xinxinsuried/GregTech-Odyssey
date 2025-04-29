@@ -666,7 +666,7 @@ hash = "4180b3139d23a32ac8a597b07a613f240a34a82c5040fbbf4d934b996ab29840"
 
 [[files]]
 file = "config/enhancedai/common.toml"
-hash = "34449129a21b657ebc8f2b6f19dbf8e6d4bd1c194c0368f6a74324316754cf02"
+hash = "35212560e816f015519a2bd2c191f5fe086d1e12f0e73b00de0251bce65f9ebe"
 
 [[files]]
 file = "config/euphoria_patcher.properties"
@@ -1330,7 +1330,7 @@ metafile = true
 
 [[files]]
 file = "mods/badoptimizations.pw.toml"
-hash = "85f9dae177b0724235e698ce39fdcb72344940777cc3590f6fc703189849ef2f"
+hash = "a72ffec00ea6c611997fee1be894d10ac78d2bed4e3149ba8949da4e0c5c28d1"
 metafile = true
 
 [[files]]
@@ -1678,8 +1678,8 @@ file = "mods/gtmthings-1.4.4.jar"
 hash = "71d3bd11b6392a6892e585649b36a3c49d3a89070c289d1d8f23b0d32aeaee91"
 
 [[files]]
-file = "mods/gtocore-0.0.8.jar"
-hash = "e99c49e8fe427b670ddf75e4f09c4c61b7e009191a4e69bb6a3f07d322317e4c"
+file = "mods/gtocore-0.0.9.jar"
+hash = "8f8591f681675456411b0bfd996fed2fcb92c6aa7187f2d4ec8ab3aae91aa9c6"
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
