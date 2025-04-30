@@ -1081,6 +1081,10 @@ file = "config/openloader/resources/quests/assets/gto/lang/zh_cn.json"
 hash = "6dc72fa752cf338a247857f339f4b436d17d5b662c6437ddda2dca21506e115a"
 
 [[files]]
+file = "config/openloader/resources/quests/assets/gto/lang/zh_tw.json"
+hash = "b11df16f39eb00129b846b2fec3b2c691567ade7db6c4fd5f840f35e325f4511"
+
+[[files]]
 file = "config/openloader/resources/quests/pack.mcmeta"
 hash = "74f2d797b0fbd6405998031cd10c30193f4b53bb3ad96d2aa9b31ad5ded26191"
 
