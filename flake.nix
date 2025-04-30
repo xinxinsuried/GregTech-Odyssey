@@ -28,9 +28,8 @@
             buildInputs = with pkgs; [ packwiz ];
             phases = [ "unpackPhase" "buildPhase" "installPhase" ];
             buildPhase = ''
-              rm -rf config/ftbquests/quests/chapters
-              cp -r config/ftbquests/localized_quests/chapters config/ftbquests/quests/chapters
-              rm -rf config/ftbquests/localized_quests
+              rm -rf config/ftbquests/quests
+              cp -r .github/localization/localized_quests config/ftbquests/quests
               packwiz cf export
             '';
             installPhase = ''
