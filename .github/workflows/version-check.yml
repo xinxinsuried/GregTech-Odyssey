@@ -2,7 +2,7 @@ name: Check GTO Version in Bug Reports
 
 on:
   issues:
-    types: [opened, edited, labeled]
+    types: [opened, edited, labeled, reopened]
 
 jobs:
   check-version:
