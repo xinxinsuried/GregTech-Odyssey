@@ -1,0 +1,111 @@
+name: Check GTO Version in Bug Reports
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  check-version:
+    runs-on: ubuntu-latest
+    # 只检查有 "错误 bug" 标签的 issue
+    if: contains(github.event.issue.labels.*.name, '错误 bug')
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Extract Current Version
+        id: get-version
+        run: |
+          # 从 pack.toml 中提取版本号
+          VERSION=$(grep "^version =" pack.toml | sed 's/version = "\(.*\)"/\1/')
+          echo "current_version=$VERSION" >> $GITHUB_OUTPUT
+          echo "Current version: $VERSION"
+
+      - name: Check Issue Version
+        id: check-issue
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const issue = context.payload.issue;
+            const issueBody = issue.body;
+            
+            // 获取当前版本
+            const currentVersion = "${{ steps.get-version.outputs.current_version }}";
+            console.log(`Current version: ${currentVersion}`);
+            
+            // 从 issue 正文中提取版本字段
+            const versionRegex = /GTO Pack Version \/ GTO包版本[\s\S]*?([0-9]+\.[0-9]+\.[0-9]+(?:-[a-zA-Z0-9]+)?)/;
+            const match = issueBody.match(versionRegex);
+            
+            if (match) {
+              const reportedVersion = match[1];
+              console.log(`Reported version: ${reportedVersion}`);
+              
+              // 检查版本是否匹配
+              // 接受精确匹配或者忽略 beta 后缀的匹配
+              const exactMatch = reportedVersion === currentVersion;
+              const baseCurrentVersion = currentVersion.split('-')[0];
+              const baseReportedVersion = reportedVersion.split('-')[0];
+              const baseMatch = baseReportedVersion === baseCurrentVersion;
+              
+              if (exactMatch || baseMatch) {
+                console.log('Version matches current. No action needed.');
+                return;
+              } else {
+                console.log('Version does not match current. Closing issue.');
+                
+                // 添加评论解释为什么关闭
+                await github.rest.issues.createComment({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  body: `## 版本不匹配通知 / Version Mismatch Notice\n\n您报告的 GTO 包版本 (\`${reportedVersion}\`) 不是当前最新版本 (\`${currentVersion}\`)。\n\n请更新到最新版本并验证问题是否仍然存在。如果问题在最新版本中仍然存在，请使用最新版本重新提交错误报告。\n\n此 issue 已被自动关闭。\n\n---\n\nThe GTO pack version you reported (\`${reportedVersion}\`) is not the current latest version (\`${currentVersion}\`).\n\nPlease update to the latest version and verify if the issue still exists. If the issue still persists in the latest version, please resubmit your bug report using the latest version.\n\nThis issue has been automatically closed.`
+                });
+                
+                // 关闭 issue
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  state: 'closed'
+                });
+                
+                // 添加过时版本标签
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issue.number,
+                  labels: ['outdated-version']
+                });
+              }
+            } else {
+              console.log('Could not extract version from issue body.');
+              
+              // 可选：如果无法从 issue 中提取版本，也可以添加评论和关闭
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `## 版本信息缺失 / Missing Version Information\n\n无法从您的错误报告中提取 GTO 包版本信息。请确保您填写了正确的版本号，并使用最新版本 (\`${currentVersion}\`)。\n\n此 issue 已被自动关闭。如需重新开启，请使用正确的模板重新提交。\n\n---\n\nCould not extract the GTO pack version information from your bug report. Please ensure you filled in the correct version number and are using the latest version (\`${currentVersion}\`).\n\nThis issue has been automatically closed. To reopen, please resubmit using the correct template.`
+              });
+              
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: 'closed'
+              });
+              
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                labels: ['invalid-format']
+              });
+            }
