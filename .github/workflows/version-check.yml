@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
-        
+
       - name: Check Issue and Version
         uses: actions/github-script@v6
         with:
@@ -64,12 +64,7 @@ jobs:
             
             if (!match) {
               console.log('Could not extract version from issue body.');
-              
-              // 检查 issue 标题或正文是否包含错误报告相关字样
-              const isBugReport = /bug|error|问题|错误|failure|fail/i.test(issue.title) || 
-                                 /Expected Behavior|Observed Behavior|预期行为|实际行为/i.test(issueBody);
-              
-              if (hasBugLabel && isBugReport) {
+              if (hasBugLabel) {
                 await github.rest.issues.createComment({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
