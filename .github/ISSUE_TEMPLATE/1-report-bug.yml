@@ -18,9 +18,22 @@ body:
       description: "Please indicate the type of server environment where the issue occurs. / 请指明发生问题的服务器环境类型。"
       options:
         - "Client / 客户端"
+        - "Client + Other Mods / 客户端 + 其他模组"
         - "Server / 服务器"
+        - "Server + MCDR / 服务器 + MCDR"
     validations:
       required: true
+  - type: "checkboxes"
+    id: "feature-type"
+    attributes:
+      label: 功能类型
+      description: 勾选适用的选项
+      options:
+        - label: 新UI组件
+        - label: API增强
+        - label: 性能优化
+        - label: 文档改进
+        - label: 其他
   - type: "textarea"
     id: "expectation"
     attributes:
@@ -54,4 +67,6 @@ body:
         - label: "I have searched the issue tracker and confirmed that no similar report exists. If the bug persists, commenting on a closed issue will prompt us to investigate and, if verified, reopen the issue. / 我已搜索问题跟踪器，确认不存在类似报告。如果错误仍然存在，在已关闭的问题上评论将促使我们调查，并经核实后重新开启该问题。"
           required: true
         - label: "I can consistently reproduce this issue by following the steps outlined above, or reproduction is not applicable (e.g., a recipe exploit). / 我可以通过遵循上述步骤持续重现此问题，或无需重现（例如，配方漏洞）。"
+          required: true
+        - label: "I understand that due to the rapid updates of the integration package, errors in non latest or extremely similar versions are highly likely to have been fixed, and their reports will be closed without investigation. / 我理解因整合包飞速地更新，非最新版本或极其相近的版本的错误极大可能已经修复，其报告将被关闭而不进行调查。"
           required: true
