@@ -21,29 +21,14 @@ body:
         - "Server / 服务器"
     validations:
       required: true
-  - type: "checkboxes"
-    id: "feature-type"
-    attributes:
-      label: "Environment / 环境"
-      description: "Select Your Environment / 勾选环境选项"
-      options:
-        - label: "No Modifify / 没有修改过环境"
-        - label: "Otner Mod / 其他mod"
-        - label: 性能优化
-        - label: 文档改进
-        - label: 其他
-    validations:
-      required: true
   - type: "textarea"
     id: "expectation"
     attributes:
-      label: "Expected Behavior And How to reproduce / 预期行为与如何重现"
+      label: "Expected Behavior / 预期行为"
       description: "Describe the action you attempted and the outcome you anticipated. Please attach screenshots if applicable. / 描述您尝试的操作以及您预期的结果。如适用，请附上截图。"
       placeholder: "Example: I attempted to craft a diamond pickaxe in Minecraft by arranging three diamonds across the top row of the crafting table and two sticks in the middle column below, expecting to obtain a diamond pickaxe as the result. / 示例：我尝试在Minecraft中通过在工作台顶部一行放置三个钻石，并在下方中间列放置两根木棍来制作钻石镐，预期会获得一把钻石镐作为结果。"
-      value: |
-        1.
-        2.
-        3.
+    validations:
+      required: true
   - type: "textarea"
     id: "actual"
     attributes:
