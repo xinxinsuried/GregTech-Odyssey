@@ -1698,6 +1698,11 @@ file = "mods/gtocore-0.0.9.jar"
 hash = "3d1c2e811b3bb9d5e36f7be9e002754acda7cfcdad64579af4dedfa5c11e03da"
 
 [[files]]
+file = "mods/guideme.pw.toml"
+hash = "55fe311d176ed6178393f9060141c0165ea37a1b4e87426848019dd6cb5256ba"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "63dd804709c10c01fd15e0d949f446827d2e0f73689aea47a15b362f24f1df82"
 metafile = true
