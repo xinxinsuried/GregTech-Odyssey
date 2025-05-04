@@ -1281,7 +1281,7 @@ metafile = true
 
 [[files]]
 file = "mods/alltheleaks.pw.toml"
-hash = "415c1bb058287bd60abb4ffc9210963699259862e32b039ececf3c0b497e968b"
+hash = "e5ebb747553799e65aa1a2222ea07e24a151f269e1388c4726b752c098b43fee"
 metafile = true
 
 [[files]]
@@ -1316,7 +1316,7 @@ metafile = true
 
 [[files]]
 file = "mods/applied-energistics-2.pw.toml"
-hash = "5fc984eac47f7db41c449b2615081506a34f19328aa1de24031a10fe07eb7c30"
+hash = "4383fe11541a7fdfd81993e1571bde1cbc81f0821fa0ed0aac86886fa246218f"
 metafile = true
 
 [[files]]
@@ -1536,7 +1536,7 @@ metafile = true
 
 [[files]]
 file = "mods/enhanced-ai.pw.toml"
-hash = "8f892b6857f24efab3e16a69b7a56ae71233810a982b3bb7d9440c0b86349359"
+hash = "401e3f5b5b6113e598bf1f7126d08505d58ea56e068a45760868c3c4419e9b78"
 metafile = true
 
 [[files]]
