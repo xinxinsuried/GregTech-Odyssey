@@ -234,8 +234,16 @@ jobs:
               // 隐藏之前的机器人警告信息
               if (botComments.length > 0) {
                 for (const comment of botComments) {
-                  // 更新评论，在前面添加 Resolved 标记
-                  const updatedBody = `~~${comment.body}~~\n\n**Resolved: 此问题已解决，用户现在使用了支持的版本** / **This issue has been resolved, the user is now using a supported version**`;
+                  // 处理每一行文本，为每一行添加删除线标记
+                  const processedLines = comment.body.split('\n').map(line => {
+                    // 忽略空行
+                    if (line.trim() === '') return '';
+                    return `~~${line}~~`;
+                  }).join('\n');
+                  
+                  // 更新评论
+                  const updatedBody = `<details>\n<summary><b>已解决的版本问题 (点击展开) / Resolved Version Issue (Click to expand)</b></summary>\n\n${processedLines}\n</details>\n\n**✅ 已解决：用户现在使用了支持的版本** / **Issue resolved: User is now using a supported version**`;
+                  
                   await github.rest.issues.updateComment({
                     owner: context.repo.owner,
                     repo: context.repo.repo,
