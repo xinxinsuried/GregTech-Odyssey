@@ -113,6 +113,21 @@ jobs:
             const formattedAllowedVersions = allowedVersions.map(v => `\`${v}\``).join(', ');
             console.log(`Allowed versions: ${JSON.stringify(allowedVersions)}`);
             
+            // 获取所有 bot 之前的评论
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: issue.number,
+            });
+            
+            // 查找本机器人之前的警告信息评论
+            const botComments = comments.data.filter(comment => {
+              return comment.user.type === 'Bot' && 
+                    (comment.body.includes('温馨提示：版本信息格式问题') || 
+                     comment.body.includes('温馨提示：缺少版本信息') || 
+                     comment.body.includes('温馨提示：版本需要更新'));
+            });
+            
             const issueBody = issue.body;
             if (!issueBody) {
               console.log('Issue body is empty. Closing issue due to invalid format.');
@@ -214,6 +229,20 @@ jobs:
                   issue_number: issue.number,
                   body: `## 版本验证通过，问题已重新打开 / Version Verified, Issue Reopened\n\n非常感谢您更新了问题报告！您现在使用的版本 (\`${reportedVersion}\`) 是受支持的版本，我们已自动重新打开这个问题。我们的团队将尽快查看并处理您的反馈。\n\n感谢您对 GTO 项目的支持与贡献！\n\n---\n\nThank you for updating your report! The version you're using now (\`${reportedVersion}\`) is supported, and we've automatically reopened this issue. Our team will review and address your feedback as soon as possible.\n\nWe appreciate your support and contributions to the GTO project!`
                 });
+              }
+              
+              // 隐藏之前的机器人警告信息
+              if (botComments.length > 0) {
+                for (const comment of botComments) {
+                  // 更新评论，在前面添加 Resolved 标记
+                  const updatedBody = `~~${comment.body}~~\n\n**Resolved: 此问题已解决，用户现在使用了支持的版本** / **This issue has been resolved, the user is now using a supported version**`;
+                  await github.rest.issues.updateComment({
+                    owner: context.repo.owner,
+                    repo: context.repo.repo,
+                    comment_id: comment.id,
+                    body: updatedBody
+                  });
+                }
               }
               
               return;
