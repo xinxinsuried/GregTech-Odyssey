@@ -242,7 +242,7 @@ jobs:
                   }).join('\n');
                   
                   // 更新评论
-                  const updatedBody = `<details>\n<summary><b>已解决的版本问题 (点击展开) / Resolved Version Issue (Click to expand)</b></summary>\n\n${processedLines}\n</details>\n\n**✅ 已解决：用户现在使用了支持的版本** / **Issue resolved: User is now using a supported version**`;
+                  const updatedBody = `<details>\n<summary><b>已解决的版本问题 (点击展开) / Resolved Version Issue (Click to expand)</b></summary>\n\n${processedLines}\n</details>`;
                   
                   await github.rest.issues.updateComment({
                     owner: context.repo.owner,
